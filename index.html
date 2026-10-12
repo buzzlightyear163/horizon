@@ -1,0 +1,1590 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A live view of pump.fun's event horizon. Every new coin falls in. HORIZON counts how many escape, and tells you which side of the line any coin is on.">
+<meta name="theme-color" content="#05060b">
+<meta property="og:title" content="HORIZON · Most coins never escape.">
+<meta property="og:description" content="A live view of pump.fun's event horizon. Every launch falls in. Watch which ones escape.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HORIZON · Most coins never escape.">
+<meta name="twitter:description" content="A live view of pump.fun's event horizon. Every launch falls in. Watch which ones escape.">
+<meta name="twitter:image" content="/og.jpg">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>HORIZON</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Fraunces:ital,opsz,wght@1,9..144,300..500&family=Figtree:wght@400..600&family=Chivo+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an observatory. One live black hole, fed by pump.fun, seen through a telescope viewfinder; observation logs, mono instrument readouts, grotesk headlines that end in an italic serif. */
+:root{
+  --bg:#05060b;
+  --ink:#eef0f6;
+  --ink-2:#a3a8b8;
+  --ink-3:#656b7d;
+  --line:rgba(238,240,246,.09);
+  --line-2:rgba(238,240,246,.2);
+  --on-ink:#07080d;
+  --tint-1:#f8bfc4;
+  --tint-2:#aacbff;
+  --live:#a6f0c6;
+  --warn:#ffd6a0;
+  --display:"Bricolage Grotesque","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --serif:"Fraunces","Iowan Old Style",Georgia,serif;
+  --text:"Figtree","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --mono:"Chivo Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --gutter:clamp(16px,4vw,56px);
+  --max:1360px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--text);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit;color:inherit}
+::selection{background:var(--tint-1);color:var(--on-ink)}
+:focus-visible{outline:1.5px solid var(--tint-2);outline-offset:3px}
+.wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter);position:relative}
+.label{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+em.s,h1 em,h2 em,.final em{font-family:var(--serif);font-style:italic;font-weight:360;letter-spacing:-.02em;background:linear-gradient(100deg,var(--tint-1),var(--tint-2));-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.08em;font-variation-settings:"opsz" 120}
+
+#stage{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;display:block}
+.grain{position:fixed;inset:-50%;z-index:1;pointer-events:none;opacity:.055;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+main,footer,.top{position:relative;z-index:2}
+body.no-gl{background:radial-gradient(ellipse 60% 45% at 60% 40%,#171427 0%,var(--bg) 70%) fixed}
+body.no-gl .anchor::after{content:"";position:absolute;left:50%;top:50%;width:34%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;background:#000;box-shadow:0 0 0 2px rgba(255,240,240,.8),0 0 40px 8px rgba(248,191,196,.35),0 0 120px 30px rgba(170,203,255,.18)}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+.top.scrolled{background:rgba(5,6,11,.74);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;gap:32px;height:68px}
+.brand{display:flex;align-items:center;gap:11px;font-family:var(--display);font-weight:600;font-size:18px;letter-spacing:.2em;font-variation-settings:"opsz" 24}
+.brand img{width:28px;height:28px;border-radius:50%;flex:none;box-shadow:0 0 0 1px rgba(238,240,246,.14),0 0 18px rgba(195,180,255,.25)}
+.links{display:flex;gap:24px}
+.links a{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);transition:color .15s}
+.links a:hover{color:var(--ink)}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:14px}
+.lamp{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);white-space:nowrap}
+.lamp i{width:7px;height:7px;border-radius:50%;background:var(--ink-3);box-shadow:0 0 0 3px rgba(238,240,246,.06)}
+.lamp[data-mode="live"] i{background:var(--live);box-shadow:0 0 0 3px rgba(166,240,198,.14),0 0 12px rgba(166,240,198,.7);animation:pulse 2.2s infinite}
+.lamp[data-mode="preview"] i{background:var(--warn);box-shadow:0 0 0 3px rgba(255,214,160,.14)}
+@keyframes pulse{50%{opacity:.45}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;padding:14px 20px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink);background:rgba(5,6,11,.35);cursor:pointer;transition:background .2s,border-color .2s,color .2s;white-space:nowrap}
+.btn:hover{border-color:rgba(238,240,246,.5)}
+.btn.primary{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.btn.primary:hover{background:#fff}
+.btn.small{padding:9px 14px;font-size:10.5px}
+.btn.ghost{border-color:transparent;background:transparent;padding-inline:4px}
+.btn.ghost:hover{color:var(--tint-1)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+
+/* hero: the viewfinder */
+.hero{padding-block:clamp(10px,2vh,24px) clamp(36px,5vh,64px)}
+.scope{position:relative;height:clamp(600px,calc(100vh - 150px),900px);border:1px solid var(--line);border-radius:6px}
+.scope .corner{position:absolute;width:22px;height:22px;border-color:rgba(238,240,246,.55);border-style:solid;border-width:0}
+.corner.tl{left:-1px;top:-1px;border-left-width:1.5px;border-top-width:1.5px;border-top-left-radius:6px}
+.corner.tr{right:-1px;top:-1px;border-right-width:1.5px;border-top-width:1.5px;border-top-right-radius:6px}
+.corner.bl{left:-1px;bottom:-1px;border-left-width:1.5px;border-bottom-width:1.5px;border-bottom-left-radius:6px}
+.corner.br{right:-1px;bottom:-1px;border-right-width:1.5px;border-bottom-width:1.5px;border-bottom-right-radius:6px}
+.bar{display:flex;align-items:center;gap:22px;justify-content:space-between;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+.bar b{font-weight:400;color:var(--ink-2)}
+.scope>.bar{position:absolute;left:0;right:0;top:0;padding:14px 20px;border-bottom:1px solid var(--line)}
+.ruler{position:absolute;pointer-events:none;font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;color:var(--ink-3)}
+.ruler.x{left:20px;right:20px;top:44px;height:9px;background:repeating-linear-gradient(90deg,rgba(238,240,246,.22) 0 1px,transparent 1px calc(100%/48))}
+.ruler.y{top:64px;bottom:120px;left:0;width:9px;background:repeating-linear-gradient(180deg,rgba(238,240,246,.22) 0 1px,transparent 1px calc(100%/24))}
+.ruler span{position:absolute}
+.ruler.x span{top:12px;transform:translateX(-50%)}
+.ruler.y span{left:14px;transform:translateY(-50%)}
+.cross{position:absolute;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(238,240,246,.12) 18%,rgba(238,240,246,.12) 40%,transparent 44%,transparent 56%,rgba(238,240,246,.12) 60%,rgba(238,240,246,.12) 82%,transparent)}
+.cross.h{height:1px;left:0;right:0}
+.cross.v{width:1px;top:44px;bottom:60px;background:linear-gradient(180deg,transparent,rgba(238,240,246,.10) 20%,rgba(238,240,246,.10) 38%,transparent 42%,transparent 58%,rgba(238,240,246,.10) 62%,rgba(238,240,246,.10) 80%,transparent)}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:28px;height:1px;background:linear-gradient(90deg,var(--tint-1),var(--tint-2))}
+.scope .eyebrow{position:absolute;left:clamp(22px,3vw,44px);top:84px}
+h1{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(58px,9.2vw,168px);line-height:.86;letter-spacing:-.045em;font-variation-settings:"opsz" 96}
+h1 span{display:block;text-shadow:0 6px 50px rgba(5,6,11,.65)}
+h1 em{font-weight:340;letter-spacing:-.03em}
+.scope h1{position:absolute;left:clamp(22px,3vw,44px);bottom:96px}
+.anchor{position:relative}
+#a-hero{position:absolute;left:61%;top:46%;width:min(68vh,46vw,740px);aspect-ratio:1;transform:translate(-50%,-50%)}
+.callout{position:absolute;display:flex;flex-direction:column;gap:3px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;transition:opacity .6s}
+.callout b{font-weight:400;color:var(--ink);letter-spacing:.03em;text-transform:none;font-size:12.5px}
+.callout::after{content:"";position:absolute;top:8px;height:1px;width:clamp(26px,3.4vw,62px);background:linear-gradient(90deg,var(--line-2),rgba(238,240,246,.5))}
+.callout::before{content:"";position:absolute;top:4px;width:9px;height:9px;border-radius:50%;border:1px solid rgba(238,240,246,.7)}
+.callout.l{right:90%;padding-right:clamp(40px,4.5vw,80px);text-align:right;align-items:flex-end}
+.callout.l::after{right:2px}
+.callout.l::before{right:-10px}
+.callout.r{left:90%;padding-left:clamp(40px,4.5vw,80px)}
+.callout.r::after{left:2px;background:linear-gradient(270deg,var(--line-2),rgba(238,240,246,.5))}
+.callout.r::before{left:-10px}
+.c1{top:22%}.c2{top:39%}.c3{top:24%}.c4{top:62%}
+.callout.dim{opacity:0}
+.readout{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:auto repeat(4,minmax(0,1fr));border-top:1px solid var(--line);background:rgba(5,6,11,.7);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.readout>div{padding:14px 20px;display:flex;flex-direction:column;gap:3px;min-width:0}
+.readout>div+div{border-left:1px solid var(--line)}
+.readout .k{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.readout .v{font-family:var(--mono);font-size:clamp(15px,1.3vw,19px);color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.readout .v small{font-size:.7em;color:var(--ink-3);letter-spacing:.04em}
+.readout .lampcell{justify-content:center}
+.hero-foot{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:28px 64px;align-items:end;margin-top:clamp(26px,4vh,44px)}
+.lede{font-size:clamp(17px,1.3vw,19.5px);line-height:1.55;color:var(--ink-2);max-width:40rem;margin:0}
+.lede strong{color:var(--ink);font-weight:500}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.buybox{display:flex;flex-direction:column;gap:12px;align-items:stretch;justify-self:end;width:min(100%,440px)}
+.ca{display:flex;align-items:center;gap:12px;border:1px solid var(--line-2);border-radius:999px;padding:6px 6px 6px 18px;font-family:var(--mono);font-size:12px;background:rgba(5,6,11,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.ca .k{letter-spacing:.1em;color:var(--ink-3)}
+.ca .v{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink-2);padding-block:7px}
+.ca .v.has{color:var(--ink)}
+
+/* sections */
+.obs{padding-block:clamp(96px,12vw,170px);scroll-margin-top:68px}
+.obs-bar{border-top:1px solid var(--line-2);padding-top:12px;margin-bottom:clamp(30px,4vw,56px)}
+.obs-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.72fr);gap:22px 64px;align-items:end;margin-bottom:clamp(36px,5vw,64px)}
+h2{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(40px,5.4vw,88px);line-height:.92;letter-spacing:-.04em;text-wrap:balance;font-variation-settings:"opsz" 96}
+h2 em{font-weight:340}
+.obs-head p,.sub{margin:0;color:var(--ink-2);font-size:17px;max-width:34rem}
+.panel{border:1px solid var(--line);border-radius:6px;background:rgba(7,8,14,.6);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+
+/* pinned */
+.pin{position:relative;scroll-margin-top:0}
+.pin-inner{position:sticky;top:0;height:100vh;height:100svh;display:flex;flex-direction:column;padding-top:clamp(84px,11vh,116px);padding-bottom:clamp(22px,4vh,40px)}
+#fall{height:380vh}
+#anatomy{height:340vh}
+.pin-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px}
+.pin-head h2{font-size:clamp(36px,4.6vw,74px);max-width:12ch}
+.pin-head .sub{max-width:30rem}
+.fall-stage{flex:1;position:relative;min-height:0}
+#a-fall{position:absolute;left:50%;top:50%;width:min(62vh,54vw,640px);aspect-ratio:1;transform:translate(-50%,-50%)}
+.tele{position:absolute;right:0;top:50%;transform:translateY(-50%);width:min(250px,24vw);display:flex;flex-direction:column}
+.tele>div{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:11.5px}
+.tele>div:first-child{border-top:1px solid var(--line-2)}
+.tele span{color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase;font-size:10.5px}
+.tele b{font-weight:400;color:var(--ink);text-align:right}
+.tele .note{border:0;padding-top:12px;font-size:10.5px;color:var(--ink-3);letter-spacing:.04em;font-family:var(--mono);line-height:1.5}
+.chip{display:inline-flex;align-items:center;gap:8px}
+.chip::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--tint-1)}
+.chip.gone::before{background:var(--ink-3)}
+.chip.esc::before{background:var(--tint-2);box-shadow:0 0 10px var(--tint-2)}
+.fall-left{position:absolute;left:0;top:50%;transform:translateY(-50%);width:min(240px,22vw);display:flex;flex-direction:column;gap:6px}
+.fall-left .big{font-family:var(--display);font-weight:600;font-size:clamp(40px,4.2vw,64px);line-height:.9;letter-spacing:-.04em;font-variation-settings:"opsz" 96}
+.fall-left p{margin:0;font-size:14px;color:var(--ink-2)}
+.storyline{position:relative;height:clamp(60px,8vh,90px)}
+.storyline p{position:absolute;inset:0;margin:0;display:flex;align-items:center;justify-content:center;text-align:center;font-family:var(--display);font-weight:500;font-size:clamp(21px,2.4vw,36px);line-height:1.15;letter-spacing:-.02em;opacity:0;transform:translateY(10px);transition:opacity .45s,transform .45s;font-variation-settings:"opsz" 48;text-wrap:balance}
+.storyline p.on{opacity:1;transform:none}
+.meter{height:1px;background:var(--line);position:relative;margin-top:12px}
+.meter i{position:absolute;left:0;top:0;height:1px;width:0;background:linear-gradient(90deg,var(--tint-1),var(--tint-2))}
+.meter-marks{display:flex;justify-content:space-between;margin-top:8px}
+
+.anat-grid{flex:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,5vw,80px);min-height:0}
+.an-left{display:flex;flex-direction:column;gap:20px;min-width:0;justify-content:center}
+.an-left h2{font-size:clamp(36px,4.4vw,70px)}
+.parts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.parts li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:4px 14px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--line);color:var(--ink-3);transition:color .3s}
+.parts li .n{font-family:var(--mono);font-size:11px}
+.parts li b{font-family:var(--display);font-weight:500;font-size:clamp(20px,1.8vw,26px);line-height:1.1;color:inherit;letter-spacing:-.02em}
+.parts li .v{font-family:var(--mono);font-size:12px;text-align:right;white-space:nowrap}
+.parts li .by{grid-column:2/-1;font-size:14px;color:var(--ink-2);max-height:0;overflow:hidden;transition:max-height .35s}
+.parts li.done{color:var(--ink-2)}
+.parts li.on{color:var(--ink)}
+.parts li.on .v{color:var(--tint-1)}
+.parts li.on .by{max-height:4.5em}
+.an-right{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;min-width:0}
+#a-anat{width:min(62vh,44vw,620px);aspect-ratio:1}
+.src{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--ink-3);text-align:center}
+
+/* live log */
+.live-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(24px,4vw,64px);align-items:stretch}
+.live-left{display:flex;flex-direction:column;gap:18px;min-width:0}
+#a-live{width:100%;max-width:560px;aspect-ratio:1;margin-inline:auto}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line)}
+.stats div{padding:14px 0;display:flex;flex-direction:column;gap:4px;min-width:0}
+.stats div+div{padding-left:16px;border-left:1px solid var(--line)}
+.stats .v{font-family:var(--mono);font-size:clamp(16px,1.5vw,22px);white-space:nowrap}
+.log{display:flex;flex-direction:column;min-width:0;overflow:hidden}
+.log-top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.log-cols,.row{display:grid;grid-template-columns:76px minmax(0,1.3fr) minmax(0,1fr) 78px;gap:12px;align-items:center;padding:0 18px}
+.log-cols{padding-block:10px;border-bottom:1px solid var(--line)}
+.rows{display:flex;flex-direction:column;min-height:540px}
+.row{padding-block:11px;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;color:var(--ink-2);width:100%;background:none;border-left:0;border-right:0;border-top:0;text-align:left;cursor:default;transition:background .6s}
+button.row{cursor:pointer}
+button.row:hover{background:rgba(238,240,246,.035)}
+.row .nm{color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--text);font-size:14px}
+.row .nm small{font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-left:6px}
+.row .mt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink-3)}
+.row .ev{justify-self:end;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink-3)}
+.row.esc{background:linear-gradient(90deg,rgba(170,203,255,.10),transparent 70%)}
+.row.esc .ev{border-color:var(--tint-2);color:var(--tint-2)}
+.row.new{animation:rowin .9s ease}
+@keyframes rowin{from{background:rgba(248,191,196,.14)}}
+.empty{padding:28px 18px;font-family:var(--mono);font-size:12px;color:var(--ink-3)}
+.log-foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:center;padding:12px 18px;margin-top:auto;border-top:1px solid var(--line)}
+.note{font-size:13px;color:var(--ink-3);margin:0}
+
+/* checker */
+.check-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(24px,4vw,64px);align-items:center}
+.field{display:flex;align-items:center;gap:8px;padding:6px 6px 6px 20px;border:1px solid var(--line-2);border-radius:999px;background:rgba(5,6,11,.6);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:border-color .2s}
+.field:focus-within{border-color:var(--tint-2)}
+.field input{flex:1;min-width:0;background:transparent;border:0;outline:0;font-family:var(--mono);font-size:13px;letter-spacing:.02em;padding:10px 0}
+.field input::placeholder{color:var(--ink-3)}
+.err{font-size:13.5px;color:#ffb8ad;margin:10px 0 0}
+.try{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.06em;margin-top:14px}
+.try button{background:none;border:0;padding:0;cursor:pointer;color:var(--ink-2);border-bottom:1px solid var(--line-2);letter-spacing:.06em}
+.try button:hover{color:var(--ink)}
+.try button:disabled{opacity:.4;cursor:not-allowed}
+.result{margin-top:24px;padding:22px 24px;display:flex;flex-direction:column;gap:16px;min-height:300px}
+.res-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.status{font-family:var(--display);font-weight:600;font-size:clamp(40px,4.4vw,68px);line-height:.9;letter-spacing:-.04em;font-variation-settings:"opsz" 96}
+.status em{font-family:var(--serif);font-style:italic;font-weight:360}
+.coin{display:flex;flex-direction:column;align-items:flex-end;gap:2px;text-align:right;min-width:0}
+.coin b{font-weight:500;font-size:17px;max-width:16rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.coin span{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+.res-line{margin:4px 0 0;color:var(--ink-2);font-size:16px;max-width:36rem}
+.facts{margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line)}
+.facts div{padding:12px 0;display:flex;flex-direction:column;gap:4px;min-width:0}
+.facts div+div{padding-left:14px;border-left:1px solid var(--line)}
+.facts dd{margin:0;font-family:var(--mono);font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.res-actions{display:flex;flex-wrap:wrap;gap:10px}
+.idle{display:flex;flex-direction:column;justify-content:center;gap:10px;flex:1;color:var(--ink-3);font-family:var(--mono);font-size:12px;letter-spacing:.04em}
+.legend{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:4px}
+.legend div{display:flex;flex-direction:column;gap:4px;padding-top:12px;border-top:1px solid var(--line)}
+.legend b{font-family:var(--display);font-weight:500;font-size:19px;color:var(--ink);letter-spacing:-.02em}
+.legend span{font-family:var(--text);font-size:13.5px;color:var(--ink-2);letter-spacing:0;line-height:1.45}
+.check-right{display:flex;flex-direction:column;align-items:center;gap:14px}
+#a-check{width:min(62vh,42vw,600px);aspect-ratio:1}
+
+/* token */
+.token-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:clamp(24px,5vw,80px);align-items:center}
+.tok-left{display:flex;flex-direction:column;align-items:center;gap:14px}
+#a-tok{width:min(64vh,42vw,580px);aspect-ratio:1}
+.tok-left p{margin:0;text-align:center;font-size:14.5px;color:var(--ink-2);max-width:26rem}
+.tok-right{display:flex;flex-direction:column;gap:26px;min-width:0}
+.flow{display:flex;flex-direction:column;gap:14px}
+.flow-top{display:flex;align-items:baseline;gap:14px}
+.flow-top b{font-family:var(--display);font-weight:600;font-size:54px;line-height:.9;letter-spacing:-.04em}
+.stack{display:flex;height:6px;gap:3px}
+.stack i{display:block;height:100%;border-radius:3px}
+.frows{display:flex;flex-direction:column}
+.frows div{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:14px;align-items:baseline;padding:11px 0;border-top:1px solid var(--line)}
+.frows .sw{width:8px;height:8px;border-radius:50%;align-self:center}
+.frows b{font-weight:500;display:block}
+.frows span span{color:var(--ink-3);font-size:13.5px}
+.frows em{font-family:var(--mono);font-style:normal;font-size:14px}
+.road{margin-top:clamp(48px,6vw,80px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line-2)}
+.road>div{padding:22px 28px 0 0;display:flex;flex-direction:column;gap:12px}
+.road>div+div{padding-left:28px;border-left:1px solid var(--line)}
+.road ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;color:var(--ink-2);font-size:15px}
+.road li{display:flex;gap:10px}
+.road li::before{content:"";flex:none;width:12px;height:1px;background:var(--ink-3);margin-top:.8em}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:56px;align-items:start}
+.faq{border-top:1px solid var(--line-2)}
+.faq-left{display:flex;flex-direction:column}
+#a-faq{width:min(100%,420px);aspect-ratio:1;margin-top:clamp(12px,3vw,40px)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-family:var(--display);font-weight:500;font-size:clamp(19px,1.8vw,24px);letter-spacing:-.02em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:var(--mono);font-size:18px;color:var(--ink-3);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg);color:var(--tint-1)}
+.faq details p{margin:0 0 22px;color:var(--ink-2);max-width:44rem}
+
+/* footer */
+footer{padding-block:clamp(110px,14vw,200px) 40px;scroll-margin-top:68px}
+.end-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:24px;align-items:center}
+.final{font-family:var(--display);font-weight:600;font-size:clamp(54px,8vw,140px);line-height:.88;letter-spacing:-.045em;margin:0 0 40px;font-variation-settings:"opsz" 96}
+.final em{font-weight:340;display:block}
+#a-end{width:min(62vh,38vw,540px);aspect-ratio:1;justify-self:center}
+.foot{margin-top:96px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.04em;padding-top:20px;border-top:1px solid var(--line)}
+.copy-ok{border-color:var(--tint-1)!important;color:var(--tint-1)!important}
+
+/* $HORIZON's own orbit */
+.ours{display:flex;flex-direction:column;gap:10px;padding:14px 16px;border:1px solid var(--line-2);border-radius:10px;background:rgba(5,6,11,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.ours[data-state="escaped"]{border-color:color-mix(in srgb,var(--tint-2) 55%,transparent);box-shadow:0 0 34px rgba(170,203,255,.12)}
+.ours-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ours-top b{font-family:var(--mono);font-weight:500;font-size:12.5px;letter-spacing:.06em}
+.ours .chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.ours-bar{height:4px;border-radius:2px;background:rgba(238,240,246,.08);overflow:hidden}
+.ours-bar i{display:block;height:100%;width:0;border-radius:2px;background:linear-gradient(90deg,var(--tint-1),var(--tint-2));transition:width .8s ease}
+.ours[data-state="escaped"] .ours-bar i{box-shadow:0 0 12px var(--tint-2)}
+.ours-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:14px;color:var(--ink-2)}
+.ours-row b{font-family:var(--mono);font-weight:400;color:var(--ink);font-size:13px;font-variant-numeric:tabular-nums}
+.ours-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:20px}
+.ours-foot .note{font-size:11.5px;font-family:var(--mono);letter-spacing:.02em}
+.tok-left .ours{width:min(100%,420px)}
+.ours-tag{position:fixed;left:0;top:0;z-index:2;pointer-events:none;will-change:transform}
+.ours-tag::before{content:"";position:absolute;left:-8px;top:-8px;width:16px;height:16px;border-radius:50%;border:1px solid rgba(238,240,246,.8)}
+.ours-tag::after{content:"";position:absolute;left:5px;top:-6px;width:14px;height:1px;background:rgba(238,240,246,.55);transform:rotate(-50deg);transform-origin:left center}
+.ours-tag span{position:absolute;left:14px;top:-30px;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;color:var(--ink);white-space:nowrap;padding:3px 8px;border-radius:999px;background:rgba(5,6,11,.66);border:1px solid var(--line-2)}
+.ours-tag.left::after{left:-5px;transform:rotate(-130deg)}
+.ours-tag.left span{left:auto;right:14px}
+.toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 84px);transform:translateX(-50%);z-index:50;width:min(580px,calc(100% - 32px));display:flex;align-items:center;gap:14px;padding:14px 12px 14px 18px;background:rgba(11,12,20,.94);border:1px solid color-mix(in srgb,var(--tint-2) 55%,transparent);border-radius:12px;box-shadow:0 0 44px rgba(170,203,255,.2);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);animation:toastin .5s ease}
+.toast>div{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.toast b{font-family:var(--display);font-weight:600;font-size:22px;letter-spacing:-.02em;line-height:1.1}
+.toast #toast-line{font-size:14px;color:var(--ink-2)}
+@keyframes toastin{from{opacity:0;transform:translate(-50%,-8px)}}
+
+/* modal */
+.modal{position:fixed;inset:0;z-index:60;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(4,4,8,.8);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.modal-box{width:min(720px,100%);max-height:100%;overflow:auto;display:flex;flex-direction:column;gap:14px;padding:18px;background:#0b0c14;border:1px solid var(--line-2);border-radius:8px}
+.modal-box img{width:100%;display:block;border-radius:4px}
+.modal-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+
+@media (max-width:1100px){
+  .links{display:none}
+  .faq-grid{grid-template-columns:minmax(0,1fr);gap:28px}
+  #a-faq{width:min(70vw,320px);margin-inline:auto}
+  .callout{display:none}
+  .fall-left{display:none}
+}
+@media (max-width:900px){
+  .hero-foot,.obs-head,.token-grid,.end-grid,.live-grid,.check-grid{grid-template-columns:minmax(0,1fr)}
+  .buybox{justify-self:start}
+  #a-tok{width:min(80vw,440px)}
+  #a-end{width:min(76vw,440px);justify-self:start}
+  #a-check{width:min(80vw,440px)}
+  .check-right{order:-1}
+  .anat-grid{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:10px}
+  .an-left{gap:12px;justify-content:flex-start}
+  .an-left .sub,.src{display:none}
+  .parts li{padding:7px 0}
+  .parts li.on .by{max-height:3em;font-size:13px}
+  .an-right{order:-1}
+  #a-anat{width:min(34vh,70vw)}
+  .tele{display:none}
+  .readout{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .readout .lampcell{grid-column:1/-1;border-bottom:1px solid var(--line)}
+  .readout>div:nth-child(2){border-left:0}
+  .readout>div:nth-child(n+4){border-top:1px solid var(--line)}
+  .readout>div:nth-child(4){border-left:0}
+}
+@media (max-width:700px){
+  .scope{height:auto;display:flex;flex-direction:column;padding-top:56px}
+  .scope>.bar{position:absolute}
+  .scope .eyebrow,.scope h1,#a-hero,.readout{position:static;transform:none}
+  .scope .eyebrow{margin:20px 18px 0}
+  .scope h1{margin:14px 18px 0}
+  #a-hero{width:min(100%,56vh);margin:0 auto}
+  .ruler,.cross,.bar .hide-m{display:none}
+  .scope>.bar{gap:12px;padding:14px 16px}
+  .road{grid-template-columns:minmax(0,1fr)}
+  .road>div+div{padding-left:0;border-left:0;border-top:1px solid var(--line);margin-top:22px}
+  .facts,.stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .facts div:nth-child(3),.stats div:nth-child(3){padding-left:0;border-left:0}
+  .facts div:nth-child(n+3),.stats div:nth-child(n+3){border-top:1px solid var(--line)}
+  #fall{height:320vh}
+  #anatomy{height:300vh}
+  .pin-head{flex-direction:column;align-items:flex-start;gap:10px}
+  .pin-head .sub{font-size:15px}
+  #a-fall{width:min(92vw,46vh)}
+  .log-cols,.row{grid-template-columns:62px minmax(0,1fr) 70px;padding-inline:14px}
+  .log-cols .mtc,.row .mt{display:none}
+  .rows{min-height:0}
+  .legend{grid-template-columns:minmax(0,1fr)}
+  .res-top{flex-direction:column}
+  .coin{align-items:flex-start;text-align:left}
+}
+@media (max-width:520px){
+  .nav .btn{display:none}
+  .toast{flex-wrap:wrap}
+  .field{padding-left:14px}
+  .ctas .btn{flex:1}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .storyline p,.callout,.parts li,.row.new,.toast,.ours-bar i{transition:none;animation:none}
+  .lamp[data-mode="live"] i{animation:none}
+}
+</style>
+
+</head>
+<body>
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="ours-tag" id="ours-tag" aria-hidden="true" hidden><span>$HORIZON</span></div>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="HORIZON home">
+      <img src="data:image/png;base64,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" alt="" width="28" height="28">
+      HORIZON
+    </a>
+    <nav class="links" aria-label="Sections">
+      <a href="#fall">Why</a><a href="#anatomy">How</a><a href="#live">Live</a><a href="#check">Check</a><a href="#token">Token</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-right"><span class="lamp" data-lamp data-mode="connecting"><i></i><span>Connecting</span></span><a class="btn primary small" id="buy-nav" href="https://pump.fun" target="_blank" rel="noopener">Buy $HORIZON</a></div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- OBS 01 · hero -->
+  <section class="hero" data-scene="hero">
+    <div class="wrap">
+      <div class="scope" id="scope">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <div class="bar"><span><b>OBS 01</b></span><span class="hide-m">Target <b>pump.fun</b></span><span class="hide-m">Feed <b>PumpPortal · public</b></span><span><b data-utc>--:--:--</b> UTC</span></div>
+        <div class="ruler x" id="ruler-x" aria-hidden="true"></div>
+        <div class="ruler y" id="ruler-y" aria-hidden="true"></div>
+        <div class="cross h" id="cross-h" aria-hidden="true"></div>
+        <div class="cross v" id="cross-v" aria-hidden="true"></div>
+        <div class="eyebrow">A live view of pump.fun’s event horizon</div>
+        <div class="anchor" id="a-hero">
+          <div class="callout l c1 dim"><span>Event horizon</span><b>No way back</b></div>
+          <div class="callout l c2 dim"><span>Accretion disk</span><b id="co-disk">Waiting for launches</b></div>
+          <div class="callout r c3 dim"><span>Jet</span><b id="co-jet">Waiting for an escape</b></div>
+          <div class="callout r c4 dim"><span>Photon ring</span><b>Last orbit</b></div>
+        </div>
+        <h1><span>Most coins</span><span>never <em>escape.</em></span></h1>
+        <div class="readout" aria-live="off">
+          <div class="lampcell"><span class="lamp" data-lamp data-mode="connecting"><i></i><span>Connecting</span></span></div>
+          <div><span class="k">Fell in</span><span class="v" data-stat="fell">0</span></div>
+          <div><span class="k">Escaped</span><span class="v" data-stat="esc">0</span></div>
+          <div><span class="k">Odds</span><span class="v" data-stat="odds">—</span></div>
+          <div><span class="k">Launches / min</span><span class="v" data-stat="rate">—</span></div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div>
+          <p class="lede">Every few seconds a new coin launches on pump.fun and starts to fall. <strong>HORIZON draws each one the moment it is created</strong>, counts how many reach escape velocity, and tells you which side of the line any coin is on.</p>
+          <div class="ctas"><a class="btn" href="#check">Did my coin escape?</a><a class="btn ghost" href="#live">Open the live log ↓</a></div>
+        </div>
+        <div class="buybox">
+          <div class="ours" data-ours-panel data-state="pre">
+            <div class="ours-top"><b>$HORIZON</b><span class="chip gone" data-ours="chip">Pre-launch</span></div>
+            <div class="ours-bar"><i data-ours="bar"></i></div>
+            <div class="ours-row"><span data-ours="line">Joins the disk the moment the CA is live.</span><b data-ours="pct"></b></div>
+            <div class="ours-foot"><span class="note" data-ours="note" hidden></span><button class="btn ghost small" type="button" data-ours-card hidden>Make a card ↗</button></div>
+          </div>
+          <a class="btn primary" id="buy-hero" href="https://pump.fun" target="_blank" rel="noopener">Buy $HORIZON on pump.fun ↗</a>
+          <div class="ca" id="ca-hero"><span class="k">CA</span><span class="v">Posted here and on X at launch</span><button class="btn small" type="button" hidden>Copy</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBS 02 · the fall (pinned) -->
+  <section class="pin" id="fall" data-scene="fall">
+    <div class="pin-inner wrap">
+      <div class="pin-head">
+        <div style="display:flex;flex-direction:column;gap:18px"><div class="eyebrow">OBS 02 · The fall</div><h2>pump.fun is a <em>black hole.</em></h2></div>
+        <p class="sub">Launching costs almost nothing and takes seconds, so thousands of coins enter orbit every day. Very few ever leave it.</p>
+      </div>
+      <div class="fall-stage">
+        <div class="fall-left">
+          <span class="label">Since you opened this page</span>
+          <span class="big" data-stat="fell">0</span>
+          <p>coins fell in, <span data-stat="esc">0</span> escaped.</p>
+        </div>
+        <div class="anchor" id="a-fall"></div>
+        <div class="tele" aria-live="polite">
+          <div><span>Coin</span><b>One new launch</b></div>
+          <div><span>Status</span><b><span class="chip" id="fall-status">In orbit</span></b></div>
+          <div><span>Where</span><b id="fall-where">Bonding curve</b></div>
+          <div class="note">Illustration of a typical path. The lights on the disk are real launches.</div>
+        </div>
+      </div>
+      <div class="storyline" aria-live="polite">
+        <p class="on">A new coin launches. It enters orbit on the bonding curve.</p>
+        <p>Buys push it outward. Sells drag it in. Every chart is an orbit.</p>
+        <p>Most run out of buyers and cross the horizon. Nothing comes back.</p>
+        <p><span>A few reach escape velocity. They graduate and <em class="s">leave on the jet.</em></span></p>
+      </div>
+      <div class="meter"><i id="fall-meter"></i></div>
+      <div class="meter-marks label"><span>Launch</span><span>Orbit</span><span>Horizon</span><span>Escape</span></div>
+    </div>
+  </section>
+
+  <!-- OBS 03 · anatomy (pinned build) -->
+  <section class="pin" id="anatomy" data-scene="anatomy">
+    <div class="pin-inner wrap">
+      <div class="anat-grid">
+        <div class="an-left">
+          <div class="eyebrow">OBS 03 · Anatomy of the horizon</div>
+          <h2>Five parts. <em>All live.</em></h2>
+          <p class="sub">Every part of the picture is drawn from pump.fun’s public launch stream, in your browser, as it happens.</p>
+          <ol class="parts" id="parts"></ol>
+        </div>
+        <div class="an-right">
+          <div class="anchor" id="a-anat"></div>
+          <div class="src">Source · PumpPortal public stream · new tokens + migrations</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBS 04 · observation log -->
+  <section class="obs" id="live" data-scene="live">
+    <div class="wrap">
+      <div class="obs-bar bar"><span><b>OBS 04</b> · Observation log</span><span><b data-utc>--:--:--</b> UTC</span></div>
+      <div class="obs-head">
+        <h2>Watch it <em>happen.</em></h2>
+        <p>Every row is a real coin, logged the second it launches. Escapes are marked as they leave. Click any coin to check where it is now.</p>
+      </div>
+      <div class="live-grid">
+        <div class="live-left">
+          <div class="anchor" id="a-live"></div>
+          <div class="stats">
+            <div><span class="label">Fell in</span><span class="v" data-stat="fell">0</span></div>
+            <div><span class="label">Escaped</span><span class="v" data-stat="esc">0</span></div>
+            <div><span class="label">Odds</span><span class="v" data-stat="odds">—</span></div>
+            <div><span class="label">Last escape</span><span class="v" data-stat="last">—</span></div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center"><button class="btn" type="button" id="share-day">Share this session ↗</button><span class="note" id="share-note">Counted since <span data-stat="since">—</span> UTC.</span></div>
+        </div>
+        <div class="log panel">
+          <div class="log-top"><span class="lamp" data-lamp data-mode="connecting"><i></i><span>Connecting</span></span><span class="label" id="log-count">0 events</span></div>
+          <div class="log-cols label"><span>UTC</span><span>Coin</span><span class="mtc">Contract</span><span style="justify-self:end">Event</span></div>
+          <div class="rows" id="rows"><div class="empty" id="empty">Waiting for the first launch…</div></div>
+          <div class="log-foot"><span class="note" id="log-note">Live from PumpPortal’s free public stream.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBS 05 · checker -->
+  <section class="obs" id="check" data-scene="check">
+    <div class="wrap">
+      <div class="obs-bar bar"><span><b>OBS 05</b> · Did it escape?</span><span class="hide-m">Source <b>DexScreener public API</b></span></div>
+      <div class="check-grid">
+        <div>
+          <h2>Did it <em>escape?</em></h2>
+          <p class="sub" style="margin-top:20px">Paste any pump.fun contract address. HORIZON asks DexScreener where the coin trades now, and how long it took to leave the curve.</p>
+          <form id="check-form" novalidate style="margin-top:26px">
+            <div class="field">
+              <input id="check-in" type="text" autocomplete="off" spellcheck="false" placeholder="Paste a contract address" aria-label="Contract address">
+              <button class="btn primary small" type="submit">Check</button>
+            </div>
+            <p class="err" id="check-err" hidden>That isn’t a Solana address. It should be 32 to 44 letters and digits, without 0, O, I or l.</p>
+            <div class="try"><span>Try</span><button type="button" data-try="9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump">Fartcoin</button><button type="button" id="try-new" disabled>The newest launch</button></div>
+          </form>
+          <div class="result panel" id="result" aria-live="polite">
+            <div class="idle" id="res-idle">
+              <span class="label">Three possible answers</span>
+              <div class="legend">
+                <div><b>In orbit</b><span>Still on its pump.fun bonding curve.</span></div>
+                <div><b>Escaped</b><span>Graduated to a DEX pool, like PumpSwap.</span></div>
+                <div><b>Fell in</b><span>Still on the curve, and no trades in 24 hours.</span></div>
+              </div>
+            </div>
+            <div id="res-body" hidden>
+              <div class="res-top"><div class="status" id="res-status"></div><div class="coin"><b id="res-name"></b><span id="res-ca"></span></div></div>
+              <p class="res-line" id="res-line"></p>
+              <dl class="facts" id="res-facts"></dl>
+              <div class="res-actions" id="res-actions"></div>
+            </div>
+          </div>
+        </div>
+        <div class="check-right"><div class="anchor" id="a-check"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBS 06 · token -->
+  <section class="obs" id="token" data-scene="token">
+    <div class="wrap">
+      <div class="obs-bar bar"><span><b>OBS 06</b> · The token</span><span><b>$HORIZON</b> · Solana</span></div>
+      <div class="token-grid">
+        <div class="tok-left">
+          <div class="anchor" id="a-tok"></div>
+          <div class="ours" data-ours-panel data-state="pre">
+            <div class="ours-top"><b>$HORIZON</b><span class="chip gone" data-ours="chip">Pre-launch</span></div>
+            <div class="ours-bar"><i data-ours="bar"></i></div>
+            <div class="ours-row"><span data-ours="line">Joins the disk the moment the CA is live.</span><b data-ours="pct"></b></div>
+            <div class="ours-foot"><span class="note" data-ours="note" hidden></span><button class="btn ghost small" type="button" data-ours-card hidden>Make a card ↗</button></div>
+          </div>
+          <p id="tok-caption">Pre-launch. The CA appears here and on X the moment $HORIZON is live.</p>
+        </div>
+        <div class="tok-right">
+          <h2>$HORIZON keeps the <em>telescope on.</em></h2>
+          <p class="sub" style="margin:0">The site is free and runs in your browser. Creator fees from $HORIZON pay for the Horizon bot, which posts every escape to X the second it happens, and a daily report with the day’s real odds.</p>
+          <dl class="facts">
+            <div><dt class="label">Ticker</dt><dd>$HORIZON</dd></div>
+            <div><dt class="label">Chain</dt><dd>Solana</dd></div>
+            <div><dt class="label">Launch</dt><dd>pump.fun</dd></div>
+            <div><dt class="label">Supply</dt><dd>1,000,000,000</dd></div>
+          </dl>
+          <div class="ca" id="ca-token"><span class="k">CA</span><span class="v">Posted here and on X at launch</span><button class="btn small" type="button" hidden>Copy</button></div>
+          <div class="flow">
+            <div class="flow-top"><b>$1.00</b><span class="label">of creator fees</span></div>
+            <div class="stack" id="stack"></div>
+            <div class="frows" id="fee-rows"></div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:12px" id="token-links">
+            <a class="btn primary" id="buy-token" href="https://pump.fun" target="_blank" rel="noopener">Buy on pump.fun ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="road">
+        <div><span class="label">On at launch</span><ul><li>The live horizon and escape counter</li><li>Did-it-escape checker for any CA</li><li>Share cards for X</li></ul></div>
+        <div><span class="label">Next</span><ul><li>Horizon bot on X, paid by fees, posting every escape</li><li>A daily report with the day’s real odds</li></ul></div>
+        <div><span class="label">Later</span><ul><li>Escape alerts for coins you watch</li><li>Escape rate by hour, with history</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="obs" id="faq" data-scene="faq">
+    <div class="wrap faq-grid">
+      <div class="faq-left"><div class="eyebrow" style="margin-bottom:20px">Questions</div><h2>Before you <em>ask.</em></h2><div class="anchor" id="a-faq"></div></div>
+      <div class="faq">
+        <details><summary>Does an escape mean a coin is good?</summary><p>No. Escaping only means the coin filled its bonding curve and moved to a DEX pool. Plenty of escaped coins fall later. HORIZON observes. It never says buy.</p></details>
+        <details><summary>Where does the data come from?</summary><p>New launches and escapes come from PumpPortal’s free public stream, straight to your browser. The checker asks DexScreener’s public API. No keys, no accounts, nothing stored.</p></details>
+        <details><summary>Is the counter the real graduation rate?</summary><p>It counts escapes per launch while this page is open. Coins escaping now mostly launched earlier, so the first minutes are noisy. Leave it open for an hour and it settles. The real rate moves a lot: this year it has gone from well under 1% to over 6% in a single day.</p></details>
+        <details><summary>How do you know how close $HORIZON is to escaping?</summary><p>HORIZON reads $HORIZON’s price on its bonding curve from DexScreener every 15 seconds and works out how much of the curve is filled. That percentage is an estimate. The escape itself comes from pump.fun’s own migration event, the moment it happens.</p></details>
+        <details><summary>What does Preview mean?</summary><p>If the live stream can’t connect, for example inside some embeds or networks, the disk runs on simulated launches and the lamp says Preview. Simulated numbers are labelled, never shown as real, and share cards say so.</p></details>
+        <details><summary>Why does the checker say not found?</summary><p>DexScreener can take a minute to list a brand-new coin, and some coins never get listed. Try again shortly, and check that the address is complete.</p></details>
+        <details><summary>Will HORIZON DM me?</summary><p>Never. There is no presale, no airdrop and no support account. Anyone messaging you as HORIZON is not us.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer data-scene="end" id="end">
+  <div class="wrap">
+    <div class="end-grid">
+      <div>
+        <p class="final">Everything falls in. <em>Some things escape.</em></p>
+        <div style="display:flex;flex-wrap:wrap;gap:12px" id="foot-links">
+          <a class="btn primary" id="buy-foot" href="https://pump.fun" target="_blank" rel="noopener">Buy $HORIZON ↗</a>
+          <a class="btn" href="#check">Check a coin</a>
+        </div>
+        <div class="ca" id="ca-foot" style="margin-top:16px;max-width:460px"><span class="k">CA</span><span class="v">Posted here and on X at launch</span><button class="btn small" type="button" hidden>Copy</button></div>
+      </div>
+      <div class="anchor" id="a-end"></div>
+    </div>
+    <div class="foot"><span>HORIZON · a live view of pump.fun’s event horizon</span><span>Not financial advice. An escape is a fact about a coin, not a reason to buy it.</span></div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden>
+  <div><span class="label" id="toast-label">Observation · just now</span><b>$HORIZON escaped.</b><span id="toast-line"></span></div>
+  <button class="btn primary small" type="button" id="toast-card">Share the escape ↗</button>
+  <button class="btn ghost small" type="button" id="toast-close" aria-label="Close">✕</button>
+</div>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="Share card">
+    <div class="modal-row"><span class="label">Share card</span><button class="btn small" type="button" id="modal-close">Close</button></div>
+    <img id="card-img" alt="Share card">
+    <div class="modal-row">
+      <span class="label" style="text-transform:none;letter-spacing:.02em">Right-click or long-press the image to save it.</span>
+      <div style="display:flex;gap:8px"><button class="btn small" type="button" id="card-copy">Copy text</button><a class="btn primary small" id="card-dl" href="#">Save</a></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===== Edit these at launch ===== */
+const CONFIG = {
+  ca: "",            // paste the $HORIZON mint address after launch
+  x: "",             // e.g. "https://x.com/yourhandle"
+  dexscreener: "",   // optional
+  site: "",          // e.g. "horizon.fun", printed on share cards
+  curve: { virtualSol: 30, virtualTokens: 1073000000, sellable: 793100000 },  // pump.fun bonding curve, used to estimate $HORIZON's progress
+  fees: [
+    { label: "Horizon bot", note: "Posts every escape to X the second it happens, with its card", cents: 50 },
+    { label: "Daily report and servers", note: "The daily odds report, hosting and the feed relay", cents: 25 },
+    { label: "Development", note: "Escape alerts, rate history and new instruments", cents: 25 }
+  ]
+};
+
+/* ===== Basics ===== */
+const $ = id => document.getElementById(id);
+const $$ = s => [...document.querySelectorAll(s)];
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const lerp = (a, b, t) => a + (b - a) * t;
+const ease = t => t < .5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3) / 2;
+const sstep = (a, b, v) => { const t = clamp((v - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const isAddr = s => /^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(s);
+const short = s => s && s.length > 12 ? s.slice(0, 4) + "…" + s.slice(-4) : (s || "");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const clean = (s, n) => String(s ?? "").replace(/[\u0000-\u001f\u007f]/g, "").trim().slice(0, n);
+const pad = n => String(n).padStart(2, "0");
+const utc = d => `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}:${pad(d.getUTCSeconds())}`;
+const fmtInt = n => n.toLocaleString("en-US");
+function ago(ms){
+  const s = Math.max(0, Math.round(ms / 1000));
+  if (s < 60) return s + "s ago";
+  const m = Math.round(s / 60); if (m < 60) return m + "m ago";
+  const h = Math.floor(m / 60); return h + "h " + (m % 60) + "m ago";
+}
+function dur(ms){
+  const m = Math.max(0, Math.round(ms / 60000));
+  if (m < 1) return "under a minute";
+  if (m < 60) return m + "m";
+  const h = Math.floor(m / 60); if (h < 48) return h + "h " + (m % 60) + "m";
+  return Math.round(h / 24) + " days";
+}
+function money(n){
+  if (!isFinite(n)) return "—";
+  if (n >= 1e9) return "$" + (n / 1e9).toFixed(2) + "B";
+  if (n >= 1e6) return "$" + (n / 1e6).toFixed(2) + "M";
+  if (n >= 1e3) return "$" + (n / 1e3).toFixed(1) + "K";
+  return "$" + Math.round(n);
+}
+
+/* ===== Palette (matches the shader's iris) ===== */
+const STOPS = [[1, .74, .62], [.98, .66, .86], [.74, .68, 1], [.60, .84, 1]];
+function iris(t){
+  t = ((t % 1) + 1) % 1 * 4; const i = Math.floor(t), f = t - i, s = f * f * (3 - 2 * f);
+  const a = STOPS[i % 4], b = STOPS[(i + 1) % 4]; return a.map((v, k) => lerp(v, b[k], s));
+}
+const toHex = c => "#" + c.map(v => Math.round(clamp(v, 0, 1) * 255).toString(16).padStart(2, "0")).join("");
+const soften = (c, m) => c.map(v => lerp(1, v, m));
+
+/* ===== WebGL studio ===== */
+const FRAG = `precision highp float;
+uniform vec2 uRes; uniform float uTime;
+uniform vec4 uPA;
+uniform vec4 uView;
+uniform vec4 uEv[16];
+uniform vec4 uJet;
+uniform vec4 uFocus;
+uniform vec3 uTintA; uniform vec3 uTintB;
+uniform float uRings;
+#define CAMZ 6.0
+#define TANH 0.2679492
+#define RS 0.30
+#define RB 7.6
+#define RIN 2.75
+#define ROUT 6.1
+#define BC 2.598
+mat2 rot(float a){ float c=cos(a), s=sin(a); return mat2(c,s,-s,c); }
+float hash(vec2 p){ return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453); }
+float hash3(vec3 p){ return fract(sin(dot(p,vec3(127.1,311.7,74.7)))*43758.5453); }
+float vn3(vec3 p){
+  vec3 i=floor(p), f=fract(p); f=f*f*(3.-2.*f);
+  float a=hash3(i), b=hash3(i+vec3(1,0,0)), c=hash3(i+vec3(0,1,0)), d=hash3(i+vec3(1,1,0));
+  float e=hash3(i+vec3(0,0,1)), g=hash3(i+vec3(1,0,1)), h=hash3(i+vec3(0,1,1)), k=hash3(i+vec3(1,1,1));
+  return mix(mix(mix(a,b,f.x),mix(c,d,f.x),f.y),mix(mix(e,g,f.x),mix(h,k,f.x),f.y),f.z);
+}
+float fbm3(vec3 p){ float s=0., a=.5; for(int i=0;i<4;i++){ s+=a*vn3(p); p=p*2.07+vec3(1.7,9.2,3.1); a*=.5; } return s; }
+vec3 iris(float t){
+  t=fract(t)*4.;
+  vec3 a=vec3(1.,.74,.62), b=vec3(.98,.66,.86), c=vec3(.74,.68,1.), d=vec3(.60,.84,1.);
+  if(t<1.) return mix(a,b,smoothstep(0.,1.,t));
+  if(t<2.) return mix(b,c,smoothstep(1.,2.,t));
+  if(t<3.) return mix(c,d,smoothstep(2.,3.,t));
+  return mix(d,a,smoothstep(3.,4.,t));
+}
+vec3 aces(vec3 x){ return clamp((x*(2.51*x+.03))/(x*(2.43*x+.59)+.14),0.,1.); }
+vec2 sph(vec3 ro, vec3 rd, vec3 c, float r){ vec3 oc=ro-c; float b=dot(oc,rd); float h=b*b-dot(oc,oc)+r*r; if(h<0.) return vec2(1e9,-1e9); h=sqrt(h); return vec2(-b-h,-b+h); }
+float segd(vec3 q, vec3 a, vec3 b){ vec3 ab=b-a; float t=clamp(dot(q-a,ab)/max(dot(ab,ab),1e-6),0.,1.); return length(q-a-ab*t); }
+
+/* background: lensed starfield + aurora, in world units on the z=0 plane */
+vec3 stars(vec2 w, float px){
+  vec3 c=vec3(0.);
+  for(int L=0;L<3;L++){
+    float fl=float(L);
+    float sc=fl<.5?2.2:(fl<1.5?5.:11.);
+    vec2 g=w*sc+fl*31.7; vec2 id=floor(g);
+    float h=hash(id);
+    float th=fl<.5?.72:(fl<1.5?.80:.86);
+    if(h>th){
+      vec2 o=vec2(hash(id+3.1),hash(id+7.7))-.5;
+      vec2 f=fract(g)-.5-o*.7;
+      float d=length(f)/sc;
+      float br=pow((h-th)/(1.-th),2.2)*(fl<.5?1.3:(fl<1.5?.8:.5));
+      float tw=.75+.25*sin(uTime*(.6+h*2.3)+h*40.);
+      float sz=px*(fl<.5?1.15:.85);
+      c+=mix(vec3(1.),mix(uTintA,uTintB,hash(id+1.3)),.35)*br*tw*(exp(-d*d/(sz*sz))+.12*exp(-d*d/(sz*sz*9.)));
+    }
+  }
+  return c;
+}
+float reticle(vec2 w, vec4 P, float px){
+  vec2 v=(w-P.xy)/(P.w*RS); float r=length(v); float an=atan(v.y,v.x);
+  float pr=px/(P.w*RS);
+  float l=0.;
+  l+=(1.-smoothstep(0.,pr*1.1,abs(r-8.4)))*.55;
+  float dash=step(.55,fract(an/6.2832*120.-uTime*.02));
+  l+=(1.-smoothstep(0.,pr*1.1,abs(r-9.1)))*dash*.45;
+  float a=an/6.2832*96.; float darc=abs(fract(a+.5)-.5)/96.*6.2832*r;
+  float major=step(abs(fract(a/8.+.5)-.5)*8.,.5);
+  l+=(1.-smoothstep(0.,pr*1.1,darc))*step(8.4,r)*step(r,8.62+major*.3)*.8;
+  float ma=uTime*.12; vec2 mk=vec2(cos(ma),sin(ma))*8.4;
+  l+=(1.-smoothstep(pr*1.6,pr*3.6,length(v-mk)))*1.4;
+  return l;
+}
+vec3 bg(vec2 w, vec2 uv, float px){
+  vec3 c=vec3(.018,.019,.030)+vec3(.010,.010,.020)*(1.-abs(uv.y));
+  float t=uTime*.04;
+  vec2 c1=vec2(sin(t*1.3)*1.6,cos(t*1.1)*.7+.5), c2=vec2(cos(t*.9)*1.9,sin(t*1.7)*.8-.6);
+  c+=uTintA*.045*exp(-dot(w-c1,w-c1)*.35);
+  c+=uTintB*.040*exp(-dot(w-c2,w-c2)*.28);
+  c+=stars(w,px);
+  return c;
+}
+vec4 disk(vec3 h, vec3 v, float b3, float b4, out float gOut){
+  float r=length(h.xz); gOut=1.;
+  float rout=mix(RIN+.25,ROUT,b3);
+  if(r<RIN*.9||r>rout) return vec4(0.);
+  float x=clamp((r-RIN)/(ROUT-RIN),0.,1.);
+  float ph=atan(h.z,h.x);
+  float om=2.4*pow(r,-1.5);
+  float ang=ph-uTime*om;
+  vec3 q=vec3(cos(ang)*1.9,sin(ang)*1.9,r*2.6);
+  float n=fbm3(q);
+  float n2=fbm3(vec3(cos(ang)*4.,sin(ang)*4.,r*7.)+3.);
+  float bands=.5+.5*sin(r*5.5+n*7.+n2*4.);
+  float edge=smoothstep(RIN*.9,RIN*1.05,r)*(1.-smoothstep(rout-.85,rout,r));
+  float dens=edge*clamp(.12+2.1*pow(n,2.3)+.3*bands*n2,0.,1.7);
+  vec3 od=normalize(vec3(-h.z,0.,h.x));
+  float beta=clamp(sqrt(.5/max(r-1.,.6)),0.,.6);
+  float cs=dot(od,-v);
+  float g=sqrt(1.-beta*beta)/(1.-beta*cs); gOut=g;
+  float boost=max(pow(g,2.6),.42);
+  float grav=sqrt(clamp(1.-1./r,0.,1.));
+  float prof=pow(RIN/r,1.6);
+  vec3 tone=iris(uView.w+.30*x-.55*(g-1.)+n*.10);
+  vec3 hot=mix(vec3(1.,.97,.95),tone,clamp(.62+.4*x+.3*abs(g-1.),0.,1.));
+  hot=mix(hot,tone*tone*tone,.45*x+.2);
+  vec3 c=hot*prof*boost*grav*dens*1.05;
+  if(b4>.001){
+    for(int i=0;i<16;i++){
+      vec4 e=uEv[i];
+      if(e.z<.001) continue;
+      float age=uTime-e.y;
+      if(age<0.||age>18.) continue;
+      float k=age/18.;
+      float rr=mix(ROUT*.92,RIN*.8,pow(k,1.25));
+      float aa=e.x+age*2.4*pow(rr,-1.5);
+      vec2 m=vec2(cos(aa),sin(aa))*rr;
+      float dm=length(h.xz-m);
+      float life=smoothstep(0.,.8,age)*(1.-smoothstep(15.,18.,age));
+      float flash=1.+2.5*exp(-age*2.2);
+      c+=e.z*life*flash*b4*(exp(-dm*dm*55.)*2.6+exp(-dm*dm*6.)*.22)*mix(vec3(1.),uTintB,.35)*mix(1.,boost,.5);
+    }
+  }
+  float a=clamp(dens*(.62+.3*(1.-x)),0.,.93)*edge;
+  return vec4(c,a);
+}
+void main(){
+  vec2 fc=gl_FragCoord.xy, uv=(fc*2.-uRes)/uRes.y;
+  vec3 ro=vec3(0.,0.,CAMZ), rd=normalize(vec3(uv*TANH,-1.));
+  vec2 w=uv*TANH*CAMZ;
+  float px=2.*TANH*CAMZ/uRes.y;
+  float B=uView.z;
+  float b1=clamp(B,0.,1.), b2=clamp(B-1.,0.,1.), b3=clamp(B-2.,0.,1.), b4=clamp(B-3.,0.,1.), b5=clamp(B-4.,0.,1.);
+  float S=uPA.w;
+  vec2 th=w-uPA.xy; float th2=dot(th,th)+1e-7;
+  float tE=2.9*RS*S*b1;
+  vec2 src=w;
+  if(S>.001) src=uPA.xy+th*(1.-tE*tE/th2);
+  vec3 col=bg(src,uv,px);
+  if(S>.001){
+    // halo
+    float dd=length(th)/(S*RS);
+    col+=uTintA*(.05*exp(-max(dd-2.6,0.)*.45))*b1+uTintB*.03*exp(-dd*dd*.012);
+    col+=vec3(.82,.84,.95)*.075*uRings*reticle(w,uPA,px);
+    {
+      vec3 o=(ro-uPA.xyz)/(S*RS), d=rd;
+      o.xy*=rot(uView.y); d.xy*=rot(uView.y);
+      o.yz*=rot(uView.x); d.yz*=rot(uView.x);
+      float dx2=max(dot(d.xz,d.xz),1e-4);
+      float tc=-dot(o.xz,d.xz)/dx2;
+      vec3 cp=o+d*tc; float rho=length(cp.xz); float ay=abs(cp.y);
+      float wj=.035+.032*ay;
+      float knotY=1.6+(uTime-uJet.x)*4.2;
+      float kn=exp(-(ay-knotY)*(ay-knotY)*.9)*uJet.y;
+      float prof=smoothstep(1.,3.2,ay)*exp(-ay*.085)*(1.-smoothstep(14.,24.,ay));
+      float core=exp(-rho*rho/(wj*wj));
+      float jet=(core*(uJet.z*.55+kn*3.2)+exp(-rho*rho/(wj*wj*16.))*(uJet.z*.06+kn*.45))*prof*b5/sqrt(dx2);
+      vec3 jc=mix(vec3(.86,.93,1.),uTintB,.4);
+      col+=pow(aces(jc*jet*.9),vec3(1./2.2))*.9;
+    }
+    vec2 s=sph(ro,rd,uPA.xyz,RB*RS*S);
+    if(s.y>s.x){
+      vec3 o=(ro+rd*max(s.x,0.)-uPA.xyz)/(S*RS);
+      vec3 d=rd;
+      o.xy*=rot(uView.y); d.xy*=rot(uView.y);
+      o.yz*=rot(uView.x); d.yz*=rot(uView.x);
+      vec3 cr=cross(o,d); float h2=dot(cr,cr); float bimp=sqrt(h2);
+      float pr=px/(S*RS);
+      float bc=BC*b1;
+      float shadow=b1>.001?1.-smoothstep(bc-pr*.9,bc+pr*.9,bimp):0.;
+      float G=1.5*h2*b1;
+      vec3 p=o, v=d;
+      vec3 em=vec3(0.); float al=0.; float fm=1e3; float gy=1e3; float nc=0.;
+      vec3 F=vec3(cos(uFocus.y)*uFocus.x,uFocus.w,sin(uFocus.y)*uFocus.x);
+      for(int i=0;i<140;i++){
+        float r2=dot(p,p), r=sqrt(r2);
+        if(r<b1*1.02) break;
+        if(r>RB+.02&&dot(p,v)>0.) break;
+        float dt=clamp(.12*(r-.8),.03,.85);
+        vec3 acc=-G*p/(r2*r2*r);
+        vec3 v2=v+acc*dt;
+        vec3 pn=p+v2*dt;
+        float rxz=length(pn.xz);
+        gy=min(gy,length(vec2(max(rxz-ROUT*mix(.5,1.,b3),0.)+max(RIN-rxz,0.)*1.5,pn.y)));
+        if(uFocus.z>.001) fm=min(fm,segd(F,p,pn));
+        if(b3>.001&&p.y*pn.y<0.){
+          float f=p.y/(p.y-pn.y); vec3 hp=mix(p,pn,f); float g;
+          vec4 dc=disk(hp,normalize(v2),b3,b4,g);
+          float kk=nc<.5?1.:(nc<1.5?.8:.55); nc+=1.;
+          em+=(1.-al)*dc.rgb*kk; al+=(1.-al)*dc.a;
+        }
+        p=pn; v=v2;
+        if(al>.97) break;
+      }
+      float ex=max(bimp-bc,0.);
+      vec3 ring=(vec3(1.,.97,.95)*.9+uTintA*.5)*(exp(-ex*26.)*1.25+exp(-ex*4.)*.16)*b2*(1.-shadow);
+      vec3 foc=vec3(0.);
+      if(uFocus.z>.001){ float pu=.85+.15*sin(uTime*5.); foc=uFocus.z*(mix(vec3(1.,.97,.95),uTintA,.25)*exp(-fm*fm*22.)*4.2*pu+uTintA*exp(-fm*fm*2.2)*.7+mix(uTintA,uTintB,.5)*exp(-fm*fm*.35)*.12); }
+      vec3 glow=mix(uTintA,uTintB,.35)*exp(-gy*3.)*.16*b3*(1.-shadow)*(1.-smoothstep(RB*.55,RB*.95,bimp));
+      vec3 hdr=em+ring*(1.-al*.6)+foc+glow*(1.-al*.5);
+      hdr=max(hdr-.0015,0.)*(1.-smoothstep(RB*.93,RB,bimp));
+      vec3 lit=pow(aces(hdr*.74),vec3(1./2.2));
+      float lu=dot(lit,vec3(.299,.587,.114)); lit=max(mix(vec3(lu),lit,1.32),0.);
+      col=col*(1.-shadow)*(1.-al*.96)+lit;
+    }
+  }
+  col*=1.-.30*dot(uv*.5,uv*.5);
+  col+=(hash(fc+fract(uTime*7.))-.5)/150.;
+  gl_FragColor=vec4(col,1.);
+}`;
+class Studio {
+  constructor(canvas, keep){
+    const gl = canvas.getContext("webgl", { antialias: false, alpha: false, depth: false, stencil: false, preserveDrawingBuffer: !!keep, powerPreference: "high-performance" });
+    if (!gl) throw new Error("WebGL unavailable");
+    this.gl = gl; this.canvas = canvas;
+    const sh = (type, src) => { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s)); return s; };
+    const p = gl.createProgram();
+    gl.attachShader(p, sh(gl.VERTEX_SHADER, "attribute vec2 aP; void main(){ gl_Position=vec4(aP,0.,1.); }"));
+    gl.attachShader(p, sh(gl.FRAGMENT_SHADER, FRAG));
+    gl.linkProgram(p); if (!gl.getProgramParameter(p, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(p));
+    gl.useProgram(p);
+    const buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 3,-1, -1,3]), gl.STATIC_DRAW);
+    const loc = gl.getAttribLocation(p, "aP"); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    this.u = {}; ["uRes","uTime","uPA","uView","uEv","uJet","uFocus","uTintA","uTintB","uRings"].forEach(n => this.u[n] = gl.getUniformLocation(p, n));
+  }
+  draw(S){
+    const gl = this.gl, u = this.u, w = this.canvas.width, h = this.canvas.height;
+    gl.viewport(0, 0, w, h);
+    gl.uniform2f(u.uRes, w, h); gl.uniform1f(u.uTime, S.time);
+    gl.uniform4fv(u.uPA, S.PA); gl.uniform4fv(u.uView, S.view); gl.uniform4fv(u.uEv, S.ev);
+    gl.uniform4fv(u.uJet, S.jet); gl.uniform4fv(u.uFocus, S.focus);
+    gl.uniform3fv(u.uTintA, S.tintA); gl.uniform3fv(u.uTintB, S.tintB); gl.uniform1f(u.uRings, S.rings);
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+  }
+}
+
+/* ===== Shader clock and launch lights ===== */
+const t0 = performance.now();
+const clock = () => (performance.now() - t0) / 1000;
+const evBase = new Float32Array(64), evOut = new Float32Array(64);
+let evSlot = 0, lastEscapeT = -100, escapeBurst = 0;
+function addLight(){
+  const i = evSlot++ % 16;
+  evBase[i*4] = Math.random() * 6.2832; evBase[i*4+1] = clock(); evBase[i*4+2] = .75 + Math.random() * .35; evBase[i*4+3] = Math.random();
+}
+function fireJet(){ lastEscapeT = clock(); escapeBurst = 1; }
+
+/* ===== Feed: PumpPortal public stream, with an honest preview fallback ===== */
+const feed = { mode: "connecting", fell: 0, esc: 0, since: null, launches: [], escapes: [], recent: [], lastLaunch: null, lastEscape: null };
+let ws = null, retry = 0, everLive = false, previewTimer = null;
+function setMode(m){
+  feed.mode = m;
+  const label = { connecting: "Connecting", live: "Live", preview: "Preview", reconnecting: "Reconnecting" }[m];
+  $$("[data-lamp]").forEach(el => { el.dataset.mode = m; el.querySelector("span").textContent = label; });
+  $("log-note").textContent = m === "preview" ? "Preview: the live stream couldn’t connect here, so these launches are simulated and not real coins." : "Live from PumpPortal’s free public stream.";
+  $("try-new").disabled = !(m === "live" && feed.lastLaunch);
+  $("share-day").textContent = m === "preview" ? "Share preview card ↗" : "Share this session ↗";
+}
+function connect(){
+  let got = false;
+  try { ws = new WebSocket("wss://pumpportal.fun/api/data"); }
+  catch (e){ startPreview(); return; }
+  const giveUp = setTimeout(() => { if (!got && !everLive) startPreview(); }, 9000);
+  ws.onopen = () => { ws.send(JSON.stringify({ method: "subscribeNewToken" })); ws.send(JSON.stringify({ method: "subscribeMigration" })); };
+  ws.onmessage = m => {
+    let d; try { d = JSON.parse(m.data); } catch (e){ return; }
+    if (!d || typeof d !== "object" || !d.mint || !isAddr(String(d.mint))) return;
+    if (!got){ got = true; retry = 0; clearTimeout(giveUp); if (!everLive){ everLive = true; stopPreview(); resetCounts(); } setMode("live"); }
+    if (TOKEN_ADDR && d.mint === TOKEN_ADDR) oursFromStream(d.txType === "create");
+    if (d.txType === "create") onLaunch({ mint: d.mint, name: clean(d.name, 40), symbol: clean(d.symbol, 14), real: true });
+    else onEscape({ mint: d.mint, real: true });
+  };
+  ws.onclose = () => {
+    clearTimeout(giveUp);
+    if (everLive){ setMode("reconnecting"); retry++; setTimeout(connect, Math.min(30000, 2500 * Math.pow(2, retry - 1))); }
+    else startPreview();
+  };
+  ws.onerror = () => { try { ws.close(); } catch (e){} };
+}
+function resetCounts(){ feed.fell = 0; feed.esc = 0; feed.since = new Date(); feed.launches = []; feed.escapes = []; feed.recent = []; feed.lastLaunch = null; feed.lastEscape = null; $("rows").innerHTML = ""; logCount = 0; renderStats(); }
+const SYL = ["moon","pepe","based","cat","frog","goat","giga","wif","chad","nova","byte","lil","pump","ape","sigma","neko","dog","kek","zen","orb","void","echo","fren","cope"];
+const pick = a => a[(Math.random() * a.length) | 0];
+function simLaunch(){
+  const a = pick(SYL), b = pick(SYL), name = (a[0].toUpperCase() + a.slice(1)) + (Math.random() < .5 ? " " + b[0].toUpperCase() + b.slice(1) : "");
+  onLaunch({ mint: null, name, symbol: (a + (Math.random() < .4 ? b : "")).toUpperCase().slice(0, 8), real: false });
+}
+function startPreview(){
+  if (everLive || previewTimer) return;
+  setMode("preview"); if (!feed.since) feed.since = new Date();
+  for (let i = 0; i < 5; i++) setTimeout(simLaunch, i * 420);
+  const tick = () => {
+    simLaunch();
+    if (Math.random() < 1 / 70) setTimeout(() => onEscape({ mint: null, real: false, name: "Simulated coin", symbol: "SIM" }), 600);
+    previewTimer = setTimeout(tick, 700 + Math.random() * 2600);
+  };
+  previewTimer = setTimeout(tick, 2400);
+  setTimeout(() => { if (feed.mode === "preview" && feed.esc === 0) onEscape({ mint: null, real: false, name: "Simulated coin", symbol: "SIM" }); }, 14000);
+}
+function stopPreview(){ clearTimeout(previewTimer); previewTimer = null; }
+
+function onLaunch(c){
+  const now = Date.now(); c.t = now;
+  feed.fell++; feed.lastLaunch = c; feed.recent.push(now);
+  feed.launches.unshift(c); if (feed.launches.length > 300) feed.launches.pop();
+  addLight(); addRow(c, "launch");
+  if (c.real) $("try-new").disabled = false;
+}
+const nameCache = {};
+function onEscape(c){
+  const now = Date.now(); c.t = now;
+  feed.esc++; feed.lastEscape = c;
+  const known = c.mint ? feed.launches.find(x => x.mint === c.mint) : null;
+  if (known){ c.name = known.name; c.symbol = known.symbol; c.age = now - known.t; }
+  feed.escapes.unshift(c); if (feed.escapes.length > 100) feed.escapes.pop();
+  fireJet(); const row = addRow(c, "escape");
+  if (c.real && !c.name) dexLookup(c.mint).then(pairs => {
+    const p = pairs && pairs[0]; if (!p || !p.baseToken) return;
+    c.name = clean(p.baseToken.name, 40); c.symbol = clean(p.baseToken.symbol, 14);
+    if (row && row.isConnected) row.querySelector(".nm").innerHTML = `${esc(c.name)}<small>$${esc(c.symbol)}</small>`;
+  }).catch(() => {});
+}
+let logCount = 0;
+function addRow(c, kind){
+  const rows = $("rows"); const e = $("empty"); if (e) e.remove();
+  const el = document.createElement(c.real && c.mint ? "button" : "div");
+  if (el.tagName === "BUTTON"){ el.type = "button"; el.title = "Check this coin"; el.addEventListener("click", () => { $("check-in").value = c.mint; runCheck(c.mint); $("check").scrollIntoView({ behavior: reduce ? "auto" : "smooth" }); }); }
+  el.className = "row new" + (kind === "escape" ? " esc" : "");
+  const nm = c.name ? `${esc(c.name)}<small>$${esc(c.symbol)}</small>` : `<span style="color:var(--ink-3)">Looking up…</span>`;
+  el.innerHTML = `<span>${utc(new Date(c.t))}</span><span class="nm">${nm}</span><span class="mt">${c.real ? esc(short(c.mint)) : "simulated"}</span><span class="ev">${kind === "escape" ? "Escape" : "Launch"}</span>`;
+  rows.prepend(el); while (rows.children.length > 13) rows.lastChild.remove();
+  logCount++; $("log-count").textContent = fmtInt(logCount) + (logCount === 1 ? " event" : " events");
+  return el;
+}
+function renderStats(){
+  const now = Date.now();
+  feed.recent = feed.recent.filter(t => now - t < 600000);
+  const lastMin = feed.recent.filter(t => now - t < 60000).length;
+  const elapsed = feed.since ? (now - feed.since) / 60000 : 0;
+  const rate = elapsed < 1 ? (elapsed > .5 ? feed.fell / elapsed : null) : lastMin;
+  const sim = feed.mode === "preview";
+  const tag = sim ? " <small>sim</small>" : "";
+  const set = (k, html) => $$(`[data-stat="${k}"]`).forEach(el => el.innerHTML = html);
+  set("fell", fmtInt(feed.fell));
+  set("esc", fmtInt(feed.esc));
+  set("odds", feed.esc ? `1 in ${fmtInt(Math.max(1, Math.round(feed.fell / feed.esc)))}${tag}` : (feed.fell ? "waiting" : "—"));
+  set("rate", rate == null ? (feed.since ? "measuring" : "—") : (rate < 10 ? rate.toFixed(1) : Math.round(rate)) + tag);
+  set("last", feed.lastEscape ? ago(now - feed.lastEscape.t) : "none yet");
+  set("since", feed.since ? utc(feed.since) : "—");
+  $("co-disk").textContent = feed.recent.length ? `${fmtInt(feed.recent.length)} launched in 10 min` + (sim ? " (sim)" : "") : "Waiting for launches";
+  $("co-jet").textContent = feed.lastEscape ? "Last escape " + ago(now - feed.lastEscape.t) : "Waiting for an escape";
+  $$("[data-utc]").forEach(el => el.textContent = utc(new Date()));
+  partsLive();
+}
+
+/* ===== DexScreener lookups ===== */
+const DEX_NAMES = { pumpfun: "pump.fun curve", pumpswap: "PumpSwap", raydium: "Raydium", meteora: "Meteora", orca: "Orca", launchlab: "LaunchLab" };
+async function dexLookup(ca, fresh){
+  if (!fresh && nameCache[ca]) return nameCache[ca];
+  const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), 9000);
+  try {
+    const r = await fetch(`https://api.dexscreener.com/tokens/v1/solana/${ca}`, { signal: ctl.signal });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json(); const pairs = Array.isArray(j) ? j : (j && j.pairs) || [];
+    nameCache[ca] = pairs; return pairs;
+  } finally { clearTimeout(to); }
+}
+function classify(ca, pairs){
+  const mine = pairs.filter(p => p && p.baseToken && p.baseToken.address === ca);
+  const list = mine.length ? mine : pairs;
+  if (!list.length) return { status: "missing" };
+  const curve = list.find(p => p.dexId === "pumpfun");
+  const pools = list.filter(p => p.dexId !== "pumpfun").sort((a, b) => (a.pairCreatedAt || 9e15) - (b.pairCreatedAt || 9e15));
+  const main = [...list].sort((a, b) => ((b.liquidity && b.liquidity.usd) || 0) - ((a.liquidity && a.liquidity.usd) || 0))[0];
+  const tok = main.baseToken || {};
+  const tx = p => p && p.txns && p.txns.h24 ? (p.txns.h24.buys || 0) + (p.txns.h24.sells || 0) : 0;
+  const born = curve && curve.pairCreatedAt ? curve.pairCreatedAt : null;
+  const out = { name: clean(tok.name, 40) || "Unknown", symbol: clean(tok.symbol, 14) || "?", mcap: main.marketCap || main.fdv, url: main.url, born, tx24: list.reduce((a, p) => a + tx(p), 0) };
+  if (pools.length){
+    const first = pools[0];
+    return Object.assign(out, { status: "escaped", where: DEX_NAMES[first.dexId] || first.dexId, escapedAt: first.pairCreatedAt || null, took: born && first.pairCreatedAt ? first.pairCreatedAt - born : null, fromCurve: !!curve || /pump$/.test(ca) });
+  }
+  const age = born ? Date.now() - born : null;
+  if (age && age > 864e5 && out.tx24 === 0) return Object.assign(out, { status: "fallen", where: "pump.fun curve", age });
+  return Object.assign(out, { status: "orbit", where: "pump.fun curve", age });
+}
+let check = { state: "idle", ca: null, r: null, since: 0 };
+async function runCheck(ca){
+  ca = ca.trim();
+  if (!isAddr(ca)){ $("check-err").hidden = false; return; }
+  $("check-err").hidden = true;
+  check = { state: "loading", ca, r: null, since: clock() };
+  $("res-idle").hidden = true; $("res-body").hidden = false;
+  $("res-status").innerHTML = "Looking<em>…</em>"; $("res-name").textContent = ""; $("res-ca").textContent = short(ca);
+  $("res-line").textContent = "Asking DexScreener where this coin trades now.";
+  $("res-facts").innerHTML = ""; $("res-actions").innerHTML = "";
+  let pairs;
+  try { pairs = await dexLookup(ca); }
+  catch (e){
+    if (check.ca !== ca) return;
+    check.state = "error";
+    $("res-status").innerHTML = "No <em>signal.</em>";
+    $("res-line").textContent = "Couldn’t reach DexScreener from this page. Try again in a moment, or open the coin there directly.";
+    $("res-actions").innerHTML = `<a class="btn small" href="https://dexscreener.com/solana/${ca}" target="_blank" rel="noopener">Open on DexScreener ↗</a>`;
+    return;
+  }
+  if (check.ca !== ca) return;
+  const r = classify(ca, pairs); check = { state: r.status, ca, r, since: clock() };
+  if (r.status === "escaped") fireJet();
+  renderResult();
+}
+function renderResult(){
+  const { ca, r } = check;
+  if (r.status === "missing"){
+    $("res-status").innerHTML = "Not <em>found.</em>"; $("res-name").textContent = "";
+    $("res-line").textContent = "DexScreener doesn’t list this address yet. Brand-new coins can take a minute to show up, and some never do.";
+    $("res-facts").innerHTML = ""; $("res-actions").innerHTML = `<a class="btn small" href="https://pump.fun/coin/${ca}" target="_blank" rel="noopener">Open on pump.fun ↗</a>`;
+    return;
+  }
+  const title = { escaped: "Escaped<em>.</em>", orbit: "In <em>orbit.</em>", fallen: "Fell <em>in.</em>" }[r.status];
+  $("res-status").innerHTML = title;
+  $("res-name").textContent = r.name; $("res-ca").textContent = "$" + r.symbol + " · " + short(ca);
+  let line = "";
+  if (r.status === "escaped") line = r.took != null ? `$${r.symbol} left the bonding curve ${dur(r.took)} after launch and now trades on ${r.where}.` : `$${r.symbol} trades on ${r.where}${r.fromCurve ? ", so it has left the bonding curve" : ". DexScreener doesn’t show a pump.fun curve for it"}.`;
+  else if (r.status === "orbit") line = `$${r.symbol} is still on its pump.fun bonding curve${r.age ? `, ${dur(r.age)} after launch` : ""}. It hasn’t escaped yet.`;
+  else line = `$${r.symbol} is still on its bonding curve ${dur(r.age)} after launch, with no trades in the last 24 hours.`;
+  $("res-line").textContent = line;
+  const f = [
+    ["Status", { escaped: "Escaped", orbit: "In orbit", fallen: "Fell in" }[r.status]],
+    ["Market cap", money(r.mcap)],
+    [r.status === "escaped" ? "Time to escape" : "Age", r.status === "escaped" ? (r.took != null ? dur(r.took) : "—") : (r.age ? dur(r.age) : "—")],
+    ["Trades 24h", fmtInt(r.tx24)]
+  ];
+  $("res-facts").innerHTML = f.map(([k, v]) => `<div><dt class="label">${k}</dt><dd>${esc(v)}</dd></div>`).join("");
+  $("res-actions").innerHTML = `<button class="btn primary small" type="button" id="res-card">Make a card ↗</button>${r.url ? `<a class="btn small" href="${esc(r.url)}" target="_blank" rel="noopener">DexScreener ↗</a>` : ""}<a class="btn small" href="https://pump.fun/coin/${ca}" target="_blank" rel="noopener">pump.fun ↗</a>`;
+  $("res-card").addEventListener("click", () => openCard("coin"));
+}
+$("check-form").addEventListener("submit", e => { e.preventDefault(); runCheck($("check-in").value); });
+$("check-in").addEventListener("input", () => { $("check-err").hidden = true; });
+$("check-in").addEventListener("paste", () => setTimeout(() => { if (isAddr($("check-in").value.trim())) runCheck($("check-in").value); }, 0));
+$$("[data-try]").forEach(b => b.addEventListener("click", () => { $("check-in").value = b.dataset.try; runCheck(b.dataset.try); }));
+$("try-new").addEventListener("click", () => { const c = feed.launches.find(x => x.real); if (c){ $("check-in").value = c.mint; runCheck(c.mint); } });
+
+/* ===== Anatomy parts ===== */
+const PARTS = [
+  { n: "Event horizon", by: "The line of no return. A coin that crosses it has run out of buyers, and nothing it posts brings it back." },
+  { n: "Photon ring", by: "The last orbit before the edge. Coins circle here on the way down, still pumping out light." },
+  { n: "Accretion disk", by: "The bonding curve. Every coin that still trades on pump.fun circles here, faster the closer it falls." },
+  { n: "Launch lights", by: "One light for every new coin, placed the second it is created on pump.fun. Real names, real contract addresses." },
+  { n: "Jets", by: "Graduation. A coin that fills its curve moves to a DEX pool and leaves on the jet. HORIZON fires one for every escape." }
+];
+const partEls = PARTS.map((p, i) => { const li = document.createElement("li"); li.innerHTML = `<span class="n">0${i + 1}</span><b>${p.n}</b><span class="v"></span><span class="by">${p.by}</span>`; $("parts").appendChild(li); return li; });
+function partsLive(){
+  const now = Date.now(), sim = feed.mode === "preview" ? " (sim)" : "";
+  const vals = [
+    `${fmtInt(feed.fell)} fell in${sim}`,
+    "1.5× the horizon",
+    `${fmtInt(feed.recent.length)} in 10 min${sim}`,
+    feed.lastLaunch ? `$${feed.lastLaunch.symbol} · ${ago(now - feed.lastLaunch.t)}` : "waiting",
+    feed.lastEscape ? `${fmtInt(feed.esc)} escaped · ${ago(now - feed.lastEscape.t)}` : "none yet"
+  ];
+  partEls.forEach((li, i) => li.querySelector(".v").textContent = vals[i]);
+}
+let lastPart = -2;
+function partsState(build){
+  const gi = Math.min(4, Math.floor(build));
+  if (gi === lastPart) return; lastPart = gi;
+  partEls.forEach((li, i) => { li.classList.toggle("on", i === gi); li.classList.toggle("done", i < gi); });
+}
+
+/* ===== The fall (pinned story) ===== */
+const steps = $$(".storyline p");
+let lastStep = -1;
+function fallState(p){
+  const A0 = 2.2; let r, a, al = 1, h = 0, tilt, burst = 0, knot = 0, step, status, where;
+  if (p < .45){
+    const q = p / .45;
+    r = 5.25 - .25 * q + .55 * Math.sin(q * Math.PI * 4) * sstep(.42, .62, q) * (1 - sstep(.9, 1, q));
+    a = A0 + q * 6.2; al = sstep(0, .05, p);
+    tilt = lerp(.24, .64, sstep(0, .5, q));
+    step = q < .44 ? 0 : 1; status = "In orbit"; where = "Bonding curve";
+  } else if (p < .72){
+    const q = (p - .45) / .27;
+    r = lerp(5.0, .85, Math.pow(q, 1.7)); a = A0 + 6.2 + q * q * 13;
+    al = 1 - sstep(.84, 1, q); tilt = .64; step = 2;
+    status = q < .84 ? "Falling" : "Gone"; where = q < .84 ? "Losing buyers" : "Past the horizon";
+  } else {
+    const q = (p - .72) / .28;
+    r = .0; a = 0; h = lerp(1.2, 7.4, sstep(.06, .95, q));
+    al = sstep(0, .08, q) * (1 - sstep(.95, 1, q));
+    tilt = lerp(.64, .2, sstep(0, .35, q));
+    burst = sstep(.04, .2, q) * (1 - sstep(.9, 1, q)) * 1.25; knot = h;
+    step = 3; status = q < .55 ? "Escaping" : "Escaped"; where = q < .55 ? "Riding the jet" : "DEX pool";
+  }
+  if (step !== lastStep){ lastStep = step; steps.forEach((el, i) => el.classList.toggle("on", i === step)); }
+  const st = $("fall-status"); if (st.textContent !== status){ st.textContent = status; st.className = "chip" + (status === "Gone" ? " gone" : status.startsWith("Escap") ? " esc" : ""); }
+  if ($("fall-where").textContent !== where) $("fall-where").textContent = where;
+  $("fall-meter").style.width = (p * 100).toFixed(1) + "%";
+  return { focus: [r, a, al, h], tilt, burst, knot };
+}
+
+/* ===== Share cards ===== */
+let snapStudio = null;
+function snapshot(w, h, opts){
+  if (!snapStudio) return null;
+  const c = snapStudio.canvas; c.width = w; c.height = h;
+  const HHs = 6 * .2679492, aspect = w / h;
+  snapStudio.draw({ time: S.time, PA: [opts.x * aspect * HHs, opts.y * HHs, 0, opts.scale], view: [opts.tilt ?? .2, -.1, 5, S.view[3]], ev: evOut,
+    jet: [opts.jetT ?? S.jet[0], opts.burst ?? S.jet[1], .6, 0], focus: opts.focus || [0, 0, 0, 0], tintA: S.tintA, tintB: S.tintB, rings: opts.rings ?? .8 });
+  return c;
+}
+let cardText = "";
+function openCard(kind){
+  const W = 1200, H = 675, cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const x = cv.getContext("2d"), cs = getComputedStyle(document.documentElement);
+  const disp = cs.getPropertyValue("--display"), mono = cs.getPropertyValue("--mono"), serif = cs.getPropertyValue("--serif");
+  const r = check.r, escd = kind === "coin" && r && r.status === "escaped";
+  const so = { x: .44, y: .02, scale: .54, tilt: .2, burst: .6, jetT: S.time - .6, rings: .7 };
+  if (kind === "coin" && r){ so.tilt = r.status !== "escaped" ? .5 : .2; so.burst = escd ? 1 : 0; }
+  if (kind === "ours"){
+    if (ours.state === "escaped"){ so.burst = 1; so.jetT = S.time - (4.6 - 1.6) / 4.2; so.focus = [0, 0, 1, 4.6]; }
+    else { so.tilt = .42; so.burst = 0; so.focus = [orbitR(ours.progress), 2.3, 1, 0]; }
+  }
+  const snap = snapshot(W, H, so);
+  x.fillStyle = "#05060b"; x.fillRect(0, 0, W, H);
+  if (snap) x.drawImage(snap, 0, 0, W, H);
+  const g = x.createLinearGradient(0, 0, W * .62, 0); g.addColorStop(0, "rgba(5,6,11,.92)"); g.addColorStop(1, "rgba(5,6,11,0)"); x.fillStyle = g; x.fillRect(0, 0, W, H);
+  if (snap && kind === "ours" && so.focus){
+    const HHs = 6 * .2679492, pp = projectFocus(so.focus, [so.x * (W / H) * HHs, so.y * HHs, 0, so.scale], [so.tilt, -.1], W, H);
+    if (pp){
+      const mono0 = getComputedStyle(document.documentElement).getPropertyValue("--mono");
+      x.strokeStyle = "rgba(238,240,246,.85)"; x.lineWidth = 1.5; x.beginPath(); x.arc(pp[0], pp[1], 15, 0, 6.2832); x.stroke();
+      const cx0 = (so.x * (W / H) * HHs / 6 / .2679492 * H + W) / 2, dir = pp[0] < cx0 ? -1 : 1;
+      x.beginPath(); x.moveTo(pp[0] + 11 * dir, pp[1] - 11); x.lineTo(pp[0] + 30 * dir, pp[1] - 30); x.stroke();
+      x.font = `500 15px ${mono0}`; const tw = x.measureText("$HORIZON").width, bx = dir > 0 ? pp[0] + 30 : pp[0] - 30 - tw - 22;
+      x.fillStyle = "rgba(5,6,11,.72)"; x.strokeStyle = "rgba(238,240,246,.3)"; x.lineWidth = 1;
+      x.beginPath(); x.roundRect ? x.roundRect(bx, pp[1] - 50, tw + 22, 28, 14) : x.rect(bx, pp[1] - 50, tw + 22, 28); x.fill(); x.stroke();
+      x.fillStyle = "#eef0f6"; x.textBaseline = "middle"; x.fillText("$HORIZON", bx + 11, pp[1] - 35.5); x.textBaseline = "alphabetic";
+    }
+  }
+  x.strokeStyle = "rgba(238,240,246,.18)"; x.lineWidth = 1; x.strokeRect(24.5, 24.5, W - 49, H - 49);
+  x.textBaseline = "alphabetic";
+  x.fillStyle = "#eef0f6"; x.font = `600 26px ${disp}`; x.fillText("HORIZON", 64, 92);
+  x.fillStyle = "rgba(238,240,246,.55)"; x.font = `400 15px ${mono}`;
+  const sim = feed.mode === "preview";
+  let big, sub, l3;
+  if (kind === "coin" && r){
+    x.fillText(`OBSERVATION · ${new Date().toISOString().slice(0, 10)}`, 64, 122);
+    big = { escaped: "ESCAPED", orbit: "IN ORBIT", fallen: "FELL IN" }[r.status];
+    sub = r.status === "escaped" ? (r.took != null ? `$${r.symbol} left the curve in ${dur(r.took)}` : `$${r.symbol} trades on ${r.where}`) : r.status === "orbit" ? `$${r.symbol} is still on the bonding curve` : `$${r.symbol} · no trades in 24h`;
+    l3 = check.ca;
+    cardText = `${sub}.\n\n${check.ca}\n\nMost coins never escape. $HORIZON`;
+  } else if (kind === "ours"){
+    const pct = Math.round(ours.progress * 100), site = CONFIG.site ? `\n\n${CONFIG.site}` : "";
+    x.fillText(`$HORIZON · ${new Date().toISOString().slice(0, 10)}${ours.demo ? " · DEMO, SIMULATED" : ""}`, 64, 122);
+    if (ours.state === "escaped"){ big = "ESCAPED"; sub = ours.took != null ? `$HORIZON left the curve in ${dur(ours.took)}` : "$HORIZON left the bonding curve"; }
+    else { big = pct + "%"; sub = "of the way to escape velocity"; }
+    l3 = ours.demo ? "Simulated for the demo. Not real data." : (TOKEN_ADDR || "Most coins never escape.");
+    cardText = ours.demo ? "" : ours.state === "escaped"
+      ? `$HORIZON escaped.\n\n${ours.took != null ? `Left the bonding curve in ${dur(ours.took)}. ` : ""}Most coins never escape. This one did.${site}`
+      : `$HORIZON: ${pct}% to escape velocity.\n\nMost coins never escape. Watch this one try, live.${site}`;
+  } else {
+    x.fillText(`SESSION · ${feed.since ? utc(feed.since) : "--:--:--"}–${utc(new Date())} UTC${sim ? " · SIMULATED PREVIEW" : ""}`, 64, 122);
+    big = feed.esc ? `1 in ${Math.max(1, Math.round(feed.fell / feed.esc))}` : `${feed.fell} / 0`;
+    sub = `${fmtInt(feed.fell)} coins fell in. ${fmtInt(feed.esc)} escaped.`;
+    l3 = sim ? "Simulated data. Not real launches." : "Live from pump.fun";
+    cardText = sim ? "" : `${sub}\n\nWatching pump.fun's event horizon live. Most coins never escape. $HORIZON`;
+  }
+  x.fillStyle = "#eef0f6"; x.font = `600 ${big.length > 8 ? 104 : 124}px ${disp}`; x.fillText(big, 58, 430);
+  x.font = `italic 360 40px ${serif}`; const gr = x.createLinearGradient(64, 0, 640, 0); gr.addColorStop(0, toHex(soften(iris(S.view[3]), .7))); gr.addColorStop(1, toHex(soften(iris(S.view[3] + .5), .7)));
+  x.fillStyle = gr; x.fillText(sub, 64, 494);
+  x.fillStyle = "rgba(238,240,246,.6)"; x.font = `400 17px ${mono}`; x.fillText(l3, 64, 590);
+  x.textAlign = "right"; x.fillText(CONFIG.site || "most coins never escape", W - 64, 590); x.textAlign = "left";
+  const url = cv.toDataURL("image/png");
+  $("card-img").src = url; $("card-img").alt = `${big}. ${sub}`;
+  if (dlEl && !dlEl.hidden){ dlEl.href = url; dlEl.setAttribute("download", kind === "coin" ? `horizon-${(check.ca || "").slice(0, 6)}.png` : kind === "ours" ? "horizon-escape.png" : "horizon-session.png"); }
+  $("card-copy").hidden = !cardText;
+  $("modal").hidden = false; $("modal-close").focus();
+}
+const dlEl = $("card-dl"); if (dlEl && window.self !== window.top) dlEl.hidden = true;
+$("share-day").addEventListener("click", () => openCard("day"));
+$("modal-close").addEventListener("click", () => { $("modal").hidden = true; });
+$("modal").addEventListener("click", e => { if (e.target === $("modal")) $("modal").hidden = true; });
+addEventListener("keydown", e => { if (e.key === "Escape") $("modal").hidden = true; });
+function copyText(text, btn, fallbackEl){
+  const orig = btn.dataset.label || (btn.dataset.label = btn.textContent);
+  const done = () => { btn.textContent = "Copied"; btn.classList.add("copy-ok"); setTimeout(() => { btn.textContent = orig; btn.classList.remove("copy-ok"); }, 1600); };
+  const select = () => { if (!fallbackEl) return; const r = document.createRange(); r.selectNodeContents(fallbackEl); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Selected"; setTimeout(() => btn.textContent = orig, 2000); };
+  try { navigator.clipboard.writeText(text).then(done, select); } catch (e){ select(); }
+}
+$("card-copy").addEventListener("click", e => copyText(cardText, e.currentTarget));
+
+/* ===== Config wiring ===== */
+const TOKEN_ADDR = CONFIG.ca && isAddr(CONFIG.ca) ? CONFIG.ca : null;
+(function wire(){
+  const pumpUrl = TOKEN_ADDR ? `https://pump.fun/coin/${TOKEN_ADDR}` : "https://pump.fun";
+  ["buy-nav","buy-hero","buy-token","buy-foot"].forEach(id => $(id).href = pumpUrl);
+  ["ca-hero","ca-token","ca-foot"].forEach(id => {
+    const box = $(id), v = box.querySelector(".v"), b = box.querySelector("button");
+    if (TOKEN_ADDR){ v.textContent = TOKEN_ADDR; v.classList.add("has"); b.hidden = false; b.addEventListener("click", () => copyText(TOKEN_ADDR, b, v)); }
+  });
+  const add = (wrap, href, label) => { const a = document.createElement("a"); a.className = "btn"; a.href = href; a.target = "_blank"; a.rel = "noopener"; a.textContent = label; $(wrap).appendChild(a); };
+  if (CONFIG.dexscreener) add("token-links", CONFIG.dexscreener, "DexScreener ↗");
+  if (CONFIG.x){ add("token-links", CONFIG.x, "X ↗"); add("foot-links", CONFIG.x, "Follow on X ↗"); }
+  if (TOKEN_ADDR){ $("tok-caption").textContent = "$HORIZON is live. Check it yourself: paste the CA in the checker above."; }
+  const total = CONFIG.fees.reduce((a, f) => a + f.cents, 0) || 1;
+  const sw = ["linear-gradient(90deg,var(--tint-1),var(--tint-2))", "rgba(238,240,246,.45)", "rgba(238,240,246,.2)", "rgba(238,240,246,.3)"];
+  $("stack").innerHTML = CONFIG.fees.map((f, i) => `<i style="flex:${f.cents};background:${sw[i % sw.length]}"></i>`).join("");
+  $("fee-rows").innerHTML = CONFIG.fees.map((f, i) => `<div><span class="sw" style="background:${sw[i % sw.length]}"></span><span><b>${esc(f.label)}</b><span>${esc(f.note)}</span></span><em>${Math.round(f.cents / total * 100)}¢</em></div>`).join("");
+})();
+
+
+/* ===== $HORIZON's own orbit ===== */
+const ours = { state: TOKEN_ADDR ? "looking" : "pre", progress: 0, mcap: null, launchedAt: null, took: null, where: null, escAt: 0, celebrate: null, demo: false, ang: 1.3 };
+const orbitR = p => lerp(3.05, 5.75, clamp(p, 0, 1));
+function curveProgress(priceSol){
+  const c = CONFIG.curve, k = c.virtualSol * c.virtualTokens, vT = Math.sqrt(k / priceSol);
+  return clamp((c.virtualTokens - vT) / c.sellable, 0, 1);
+}
+function renderOurs(){
+  const st = ours.state, pct = Math.round(ours.progress * 100);
+  const chip = (ours.demo ? "Demo · " : "") + { pre: "Pre-launch", looking: "Looking", orbit: "In orbit", escaped: "Escaped" }[st];
+  let line, pctT = "", note = "";
+  if (st === "pre") line = "Joins the disk the moment the CA is live.";
+  else if (st === "looking"){ line = "Waiting for DexScreener to list $HORIZON."; note = "Checks every 15 seconds."; }
+  else if (st === "orbit"){ line = "of the way to escape velocity"; pctT = "≈" + pct + "%"; note = ours.demo ? "Simulated for the demo." : "Estimate from the curve price" + (ours.mcap ? ` · mcap ${money(ours.mcap)}` : ""); }
+  else { line = ours.took != null ? `Left the curve in ${dur(ours.took)}.` : "Left the bonding curve."; pctT = "100%"; note = ours.demo ? "Simulated for the demo." : ours.where ? `Now trades on ${ours.where}.` : "Confirmed by pump.fun’s migration."; }
+  $$("[data-ours-panel]").forEach(p => {
+    p.dataset.state = st;
+    const c = p.querySelector('[data-ours="chip"]'); c.textContent = chip; c.className = "chip" + (st === "escaped" ? " esc" : st === "orbit" ? "" : " gone");
+    p.querySelector('[data-ours="bar"]').style.width = (st === "escaped" ? 100 : st === "orbit" ? Math.max(2, pct) : 0) + "%";
+    p.querySelector('[data-ours="line"]').textContent = line;
+    p.querySelector('[data-ours="pct"]').textContent = pctT;
+    const n = p.querySelector('[data-ours="note"]'); n.textContent = note; n.hidden = !note;
+    p.querySelector("[data-ours-card]").hidden = !(st === "orbit" || st === "escaped");
+  });
+}
+function setOursEscaped(o){
+  if (ours.state === "escaped") return;
+  ours.state = "escaped"; ours.progress = 1; ours.took = o.took ?? null; ours.where = o.where || null; ours.escAt = clock();
+  renderOurs();
+  if (o.live){
+    ours.celebrate = clock(); fireJet();
+    $("toast-label").textContent = ours.demo ? "Demo · simulated" : "Observation · just now";
+    $("toast-line").textContent = ours.took != null ? `It left the bonding curve in ${dur(ours.took)}.` : "It left the bonding curve.";
+    $("toast").hidden = false;
+  }
+}
+function oursFromStream(isCreate){
+  if (ours.demo) return;
+  if (isCreate){ ours.launchedAt = Date.now(); if (ours.state !== "escaped"){ ours.state = "orbit"; ours.progress = 0; renderOurs(); } }
+  else setOursEscaped({ took: ours.launchedAt ? Date.now() - ours.launchedAt : null, live: true });
+}
+async function pollOurs(){
+  if (!TOKEN_ADDR || ours.demo || ours.state === "escaped") return;
+  let pairs; try { pairs = await dexLookup(TOKEN_ADDR, true); } catch (e){ return; }
+  const r = classify(TOKEN_ADDR, pairs);
+  if (r.status === "missing"){ renderOurs(); return; }
+  if (r.born) ours.launchedAt = r.born;
+  ours.mcap = r.mcap;
+  if (r.status === "escaped"){ setOursEscaped({ took: r.took, where: r.where, live: !!(r.escapedAt && Date.now() - r.escapedAt < 30 * 60e3) }); return; }
+  const curve = pairs.find(p => p && p.dexId === "pumpfun" && p.baseToken && p.baseToken.address === TOKEN_ADDR);
+  const price = curve ? parseFloat(curve.priceNative) : NaN;
+  ours.state = "orbit";
+  if (price > 0) ours.progress = curveProgress(price);
+  renderOurs();
+}
+let demoTimer = null;
+function startDemo(){
+  if (ours.demo) return;
+  ours.demo = true; ours.state = "orbit"; ours.progress = .18; ours.mcap = null; ours.took = null; ours.where = null; ours.celebrate = null;
+  const d0 = clock();
+  const tick = () => {
+    if (!ours.demo || ours.state !== "orbit") return;
+    const q = clamp((clock() - d0) / 36, 0, 1), e = q * q * (3 - 2 * q);
+    ours.progress = clamp(.18 + .82 * e + .018 * Math.sin(clock() * 1.7) * (1 - q), 0, .995);
+    if (q >= 1){ setOursEscaped({ took: 2 * 3600e3 + 14 * 60e3, live: true }); return; }
+    renderOurs(); demoTimer = setTimeout(tick, 350);
+  };
+  tick();
+}
+$$("[data-ours-card]").forEach(b => b.addEventListener("click", () => openCard("ours")));
+$("toast-card").addEventListener("click", () => openCard("ours"));
+$("toast-close").addEventListener("click", () => { $("toast").hidden = true; });
+function oursFocus(time, T){
+  if (ours.state === "orbit"){ T.focus = [orbitR(ours.progress), ours.ang + time * .32, 1, 0]; return; }
+  if (ours.state !== "escaped") return;
+  const q = ours.celebrate != null && time - ours.celebrate < 4 ? time - ours.celebrate : (time - ours.escAt) % 9;
+  if (q < 3.3){ T.focus = [0, 0, sstep(0, .2, q) * (1 - sstep(2.6, 3.2, q)), 1.4 + q * 2.6]; T.knot = 1.4 + q * 2.6; T.burst = .95 * (1 - sstep(2.4, 3.2, q)); }
+}
+function projectFocus(f, PA = S.PA, view = S.view, W = innerWidth, H = innerHeight){
+  const s = PA[3]; if (s < .01) return null;
+  const tilt = view[0], roll = view[1];
+  let x = Math.cos(f[1]) * f[0], y = f[3], z = Math.sin(f[1]) * f[0], c = Math.cos(tilt), sn = Math.sin(tilt);
+  [y, z] = [y * c - z * sn, y * sn + z * c];
+  c = Math.cos(roll); sn = Math.sin(roll);
+  [x, y] = [x * c - y * sn, x * sn + y * c];
+  if (z < 0 && Math.hypot(x, y) < 2.598 * 1.12) return null;   // behind the event horizon
+  const k = s * .30, wx = PA[0] + k * x, wy = PA[1] + k * y, dz = k * z - 6;
+  if (dz > -.1) return null;
+  const ux = wx / -dz / .2679492, uy = wy / -dz / .2679492;
+  return [(ux * H + W) / 2, (H - uy * H) / 2];
+}
+renderOurs();
+
+/* ===== Viewfinder rulers ===== */
+(function rulers(){
+  const rx = $("ruler-x"), ry = $("ruler-y");
+  for (let i = 1; i < 8; i++){ const s = document.createElement("span"); s.style.left = (i / 8 * 100) + "%"; s.textContent = pad(i * 3) + "h"; rx.appendChild(s); }
+  for (let i = 1; i < 4; i++){ const s = document.createElement("span"); s.style.top = (i / 4 * 100) + "%"; const d = 40 - i * 20; s.textContent = (d > 0 ? "+" : d < 0 ? "−" : "") + Math.abs(d) + "°"; ry.appendChild(s); }
+})();
+function placeCross(){
+  const sc = $("scope").getBoundingClientRect(), a = $("a-hero").getBoundingClientRect();
+  $("cross-h").style.top = (a.top + a.height / 2 - sc.top) + "px";
+  $("cross-v").style.left = (a.left + a.width / 2 - sc.left) + "px";
+}
+addEventListener("resize", placeCross);
+
+/* ===== Header ===== */
+const topEl = document.querySelector(".top");
+addEventListener("scroll", () => topEl.classList.toggle("scrolled", scrollY > 30), { passive: true });
+
+/* ===== Choreography ===== */
+const scenes = $$("[data-scene]").map(el => ({ el, key: el.dataset.scene }));
+function pinProgress(el){ const r = el.getBoundingClientRect(); return clamp(-r.top / Math.max(1, r.height - innerHeight), 0, 1); }
+function activeScene(){
+  const mid = innerHeight * .5; let s = scenes[0];
+  for (const sc of scenes){ const r = sc.el.getBoundingClientRect(); if (r.top <= mid && r.bottom > mid){ s = sc; break; } if (r.top > mid) break; s = sc; }
+  return s;
+}
+const HH = 6 * .2679492, FIT = 3.75;
+function anchorWorld(el, fit = FIT){
+  const r = el.getBoundingClientRect(), W = innerWidth, H = innerHeight;
+  const cx = r.left + r.width / 2, cy = r.top + r.height / 2;
+  return [(cx / W * 2 - 1) * (W / H) * HH, (1 - cy / H * 2) * HH, Math.min(r.width, r.height) / H * 2 * HH / fit];
+}
+let introT = reduce ? 1 : 0, sceneKey = "", sceneSwitch = 0;
+function target(time){
+  const sc = activeScene(); if (sc.key !== sceneKey){ sceneKey = sc.key; sceneSwitch = performance.now(); }
+  const T = { A: null, tilt: .2, roll: -.1, build: 5, rings: 1, motes: 1, focus: [0, 0, 0, 0], burst: null, knot: null };
+  switch (sc.key){
+    case "hero": T.A = anchorWorld($("a-hero")); T.tilt = ours.state === "orbit" ? .24 : .17; T.build = reduce ? 5 : clamp(introT * 5.4, 0, 5); if (introT > .9) oursFocus(time, T); break;
+    case "fall": {
+      const p = pinProgress(sc.el), f = fallState(p);
+      T.A = anchorWorld($("a-fall")); T.tilt = f.tilt; T.focus = f.focus; T.motes = .22; T.rings = .5;
+      if (p > .7){ T.burst = f.burst; T.knot = f.knot; }
+      break; }
+    case "anatomy": { const p = pinProgress(sc.el); T.A = anchorWorld($("a-anat")); T.tilt = .32; T.rings = .6; T.build = clamp((p - .04) / .84 * 5, 0, 5); partsState(T.build); break; }
+    case "live": T.A = anchorWorld($("a-live")); T.tilt = .28; T.rings = .7; break;
+    case "check": {
+      T.A = anchorWorld($("a-check")); T.rings = .6; const s = check.state, dt = time - check.since;
+      if (s === "orbit"){ T.tilt = .55; T.focus = [4.4, time * .45, 1, 0]; T.motes = .5; }
+      else if (s === "fallen"){ const q = (dt * .22) % 1; T.tilt = .55; T.focus = [lerp(5.2, .9, Math.pow(q, 1.6)), time * .3 + q * q * 9, 1 - sstep(.85, 1, q), 0]; T.motes = .5; }
+      else if (s === "escaped"){ const q = (dt % 5.5); T.tilt = .2; T.focus = [0, 0, sstep(0, .2, q) * (1 - sstep(2.6, 3.2, q)), 1.4 + q * 2.6]; T.knot = 1.4 + q * 2.6; T.burst = .9 * (1 - sstep(2.4, 3.2, q)); }
+      else T.tilt = .32;
+      break; }
+    case "token": T.A = anchorWorld($("a-tok")); T.tilt = ours.state === "orbit" ? .3 : .12; T.rings = .8; oursFocus(time, T); break;
+    case "faq": T.A = anchorWorld($("a-faq")); T.tilt = .62; T.rings = .4; break;
+    case "end": T.A = anchorWorld($("a-end")); T.tilt = .22; break;
+    default: break;
+  }
+  return T;
+}
+
+/* ===== Loop ===== */
+let studio = null, scale = innerWidth < 760 ? .55 : .68, frameMs = 16, lastAdj = 0;
+const S = { time: 0, PA: [0, 0, 0, 0], view: [.2, -.1, 0, .05], ev: evOut, jet: [-100, 0, .6, 0], focus: [0, 0, 0, 0], tintA: [.95, .75, .8], tintB: [.66, .78, 1], rings: 0 };
+const obj = { pos: [0, 0], s: 0, tilt: .2, build: reduce ? 5 : 0, rings: 0, motes: 1, focus: [0, 0, 0, 0] };
+let jetBase = .6, mx = 0, my = 0, tx = 0, ty = 0, hue = .02, tintNow = soften(iris(.02), .6).concat(soften(iris(.52), .6)), calloutsOn = false;
+addEventListener("pointermove", e => { mx = e.clientX / innerWidth - .5; my = e.clientY / innerHeight - .5; }, { passive: true });
+function resize(){
+  if (!studio) return;
+  const k = scale * Math.min(window.devicePixelRatio || 1, innerWidth < 760 ? 1.6 : 1.25);
+  const c = studio.canvas; c.width = Math.max(2, Math.round(innerWidth * k)); c.height = Math.max(2, Math.round(innerHeight * k));
+}
+addEventListener("resize", resize);
+let last = performance.now(), statTick = 0;
+function frame(now){
+  requestAnimationFrame(frame);
+  if (document.hidden){ last = now; return; }
+  const dt = Math.min(.05, (now - last) / 1000); last = now;
+  frameMs = frameMs * .92 + (dt * 1000) * .08;
+  if (now - lastAdj > 1200 && now - t0 > 2500){
+    lastAdj = now;
+    const ns = frameMs > 24 ? scale - .08 : frameMs < 14 ? scale + .05 : scale;
+    const cl = clamp(ns, .38, innerWidth < 760 ? .8 : 1);
+    if (Math.abs(cl - scale) > .01){ scale = cl; resize(); }
+  }
+  if (introT < 1) introT = clamp((now - t0 - 300) / 2800, 0, 1);
+  const time = clock();
+  const T = target(time);
+  const since = (now - sceneSwitch) / 1000, rate = reduce ? 1e3 : lerp(3.2, 11, clamp(since / 1.1, 0, 1));
+  const k = 1 - Math.exp(-dt * rate), k4 = 1 - Math.exp(-dt * (reduce ? 1e3 : 4));
+  const go = T.A || [obj.pos[0], obj.pos[1] - .4];
+  const sA = T.A ? T.A[2] * (sceneKey === "hero" ? lerp(.6, 1, ease(introT)) : 1) : 0;
+  obj.pos[0] = lerp(obj.pos[0], go[0], k); obj.pos[1] = lerp(obj.pos[1], go[1], k);
+  obj.s = lerp(obj.s, sA, 1 - Math.exp(-dt * (reduce ? 1e3 : 6)));
+  if (obj.s < .004 && !T.A) obj.s = 0;
+  const pinned = sceneKey === "fall" || sceneKey === "anatomy";
+  obj.tilt = pinned ? lerp(obj.tilt, T.tilt, 1 - Math.exp(-dt * 9)) : lerp(obj.tilt, T.tilt, 1 - Math.exp(-dt * 2.2));
+  obj.build = sceneKey === "hero" || sceneKey === "anatomy" || reduce ? T.build : lerp(obj.build, T.build, 1 - Math.exp(-dt * 3));
+  obj.rings = lerp(obj.rings, T.rings * (sceneKey === "hero" ? sstep(.8, 1, introT) : 1), 1 - Math.exp(-dt * 3));
+  obj.motes = lerp(obj.motes, T.motes, k4);
+  obj.focus = sceneKey === "fall" ? T.focus.slice() : obj.focus.map((v, i) => i === 2 ? lerp(v, T.focus[2], k4) : T.focus[2] > .01 ? T.focus[i] : v);
+  for (let i = 0; i < 64; i++) evOut[i] = (i % 4 === 2) ? evBase[i] * obj.motes : evBase[i];
+  escapeBurst = Math.exp(-(time - lastEscapeT) / 2.6);
+  tx = lerp(tx, mx, 1 - Math.exp(-dt * 3)); ty = lerp(ty, my, 1 - Math.exp(-dt * 3));
+  hue = reduce ? .05 : .02 + time * .006;
+  const want = soften(iris(hue), .6).concat(soften(iris(hue + .5), .6));
+  tintNow = tintNow.map((v, i) => lerp(v, want[i], 1 - Math.exp(-dt * 2)));
+  S.time = reduce ? 8 : time;
+  S.PA = [obj.pos[0], obj.pos[1], 0, obj.s];
+  S.view = [obj.tilt + (reduce ? 0 : ty * .12), -.1 + (reduce ? 0 : tx * .1), obj.build, hue];
+  jetBase = lerp(jetBase, (sceneKey === "hero" || sceneKey === "end" ? .6 : .36) * (innerWidth < 760 ? .7 : 1), k4);
+  S.jet = T.knot != null ? [time - (T.knot - 1.6) / 4.2, T.burst, jetBase, 0] : [lastEscapeT, Math.max(escapeBurst, T.burst || 0), jetBase, 0];
+  S.focus = obj.focus; S.rings = obj.rings;
+  S.tintA = iris(hue).map(v => v * .9); S.tintB = iris(hue + .5).map(v => v * .9);
+  studio.draw(S);
+  document.documentElement.style.setProperty("--tint-1", toHex(tintNow.slice(0, 3)));
+  document.documentElement.style.setProperty("--tint-2", toHex(tintNow.slice(3)));
+  const tag = $("ours-tag"), tagOn = (sceneKey === "hero" || sceneKey === "token") && obj.focus[2] > .35 && obj.s > .05 && (ours.state === "orbit" || ours.state === "escaped");
+  const tp = tagOn ? projectFocus(obj.focus) : null;
+  if (tp){ tag.hidden = false; const cp = projectFocus([0, 0, 0, 0]); tag.classList.toggle("left", !!cp && tp[0] < cp[0]); tag.style.transform = `translate(${tp[0].toFixed(1)}px,${tp[1].toFixed(1)}px)`; tag.style.opacity = clamp((obj.focus[2] - .35) / .4, 0, 1).toFixed(2); } else if (!tag.hidden) tag.hidden = true;
+  if (introT >= .98 && !calloutsOn){ calloutsOn = true; $$(".callout").forEach((c, i) => setTimeout(() => c.classList.remove("dim"), i * 140)); }
+}
+setInterval(renderStats, 1000);
+
+/* ===== Boot ===== */
+setMode("connecting"); renderStats(); partsState(0); placeCross();
+try {
+  studio = new Studio($("stage"));
+  try { snapStudio = new Studio(document.createElement("canvas"), true); } catch (e){ snapStudio = null; }
+  resize();
+  requestAnimationFrame(frame);
+} catch (err){
+  document.body.classList.add("no-gl"); $("stage").hidden = true;
+  $$(".callout").forEach(c => c.classList.remove("dim"));
+  window.__glError = String(err && err.message || err);
+  const noGlScroll = () => { fallState(pinProgress($("fall"))); partsState(clamp((pinProgress($("anatomy")) - .04) / .84 * 5, 0, 5)); };
+  addEventListener("scroll", noGlScroll, { passive: true }); noGlScroll();
+}
+connect();
+if (TOKEN_ADDR){ pollOurs(); setInterval(pollOurs, 15000); }
+const demoHash = () => { if (location.hash === "#demo") startDemo(); };
+addEventListener("hashchange", demoHash); demoHash();
+</script>
+
+</body>
+</html>
